@@ -1,0 +1,440 @@
+
+theia@theia-aparnamogili:/home/project$ ls
+theia@theia-aparnamogili:/home
+theia@theia-aparnamogili:/home/project$ mkdir final_proj
+theia@theia-aparnamogili:/home/project$ mkdir -p final_proj/src
+theia@theia-aparnamogili:/home/project$ mkdir -p final_proj/classes
+theia@theia-aparnamogili:/home/project$ mkdir -p final_proj/test
+theia@theia-aparnamogili:/home/project$ cd final_proj
+theia@theia-aparnamogili:/home/project/final_proj$ touch /home/project/final_proj/src/Mood.java
+theia@theia-aparnamogili:/home/project/final_proj$ import java.time.LocalDate;
+import java.time.LocalTime;
+
+public class Mood {
+    private String name;
+    private LocalDate date = LocalDate.now();
+    private LocalTime time = LocalTime.MIDNIGHT;
+    private String notes;
+
+    public Mood(String name) {
+        this.name = name;
+}   }       }   return false;uals(this.time)) {) &&\n" +notes
+bash: import: command not found
+bash: import: command not found
+bash: public: command not found
+bash: private: command not found
+bash: syntax error near unexpected token `('
+bash: private: command not found
+bash: private: command not found
+bash: syntax error near unexpected token `('
+bash: this.name: command not found
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: this.name: command not found
+bash: this.date: command not found
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: this.name: command not found
+bash: this.date: command not found
+bash: this.time: command not found
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: this.name: command not found
+bash: this.notes: command not found
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: this.name: command not found
+bash: this.date: command not found
+bash: this.notes: command not found
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: this.name: command not found
+bash: this.date: command not found
+bash: this.time: command not found
+bash: this.notes: command not found
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: return: this.name: numeric argument required
+bash: return: can only `return' from a function or sourced script
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: return: this.date: numeric argument required
+bash: return: can only `return' from a function or sourced script
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: this.date: command not found
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: return: this.time: numeric argument required
+bash: return: can only `return' from a function or sourced script
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: this.time: command not found
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: return: this.notes: numeric argument required
+bash: return: can only `return' from a function or sourced script
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: this.notes: command not found
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: return: name: numeric argument required
+bash: return: can only `return' from a function or sourced script
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `this.name'
+bash: syntax error near unexpected token `.equals'
+bash: syntax error near unexpected token `.equals'
+bash: return: true: numeric argument required
+bash: return: can only `return' from a function or sourced script
+bash: syntax error near unexpected token `}'
+bash: return: false: numeric argument required
+bash: return: can only `return' from a function or sourced script
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `}'
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d final_proj/classes final_proj/src/Mood.java
+error: file not found: final_proj/src/Mood.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d c
+lasses src/Mood.java
+theia@theia-aparnamogili:/home/project/final_proj$ touch /home/project/final_proj/src/InvalidMoodException.java
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/InvalidMoodException.java 
+theia@theia-aparnamogili:/home/project/final_proj$ touch /home/project/final_proj/src/MoodTracker.java
+theia@theia-aparnamogili:/home/project/final_
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/MoodTracker.java             
+src/MoodTracker.java:59: error: cannot find symbol
+    public static void addMood(Scanner sc, ArrayList<Mood> moods) {
+                                                     ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:110: error: cannot find symbol
+    public static void deleteMood(Scanner sc, ArrayList<Mood> moods) {
+                                                        ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:136: error: cannot find symbol
+    public static boolean delelteAllByDate(Scanner sc, ArrayList<Mood> moods) {
+                                                                 ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:142: error: cannot find symbol
+    public static boolean delete(Scanner sc, ArrayList<Mood> moods) {
+                                                       ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:153: error: cannot find symbol
+    public static void editMood(Scanner sc, ArrayList<Mood> moods) {
+                                                      ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:193: error: cannot find symbol
+    public static void searchMoods(Scanner sc, ArrayList<Mood> moods) {
+                                                         ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:217: error: cannot find symbol
+    public static boolean searchAllByDate(Scanner sc, ArrayList<Mood> moods) {
+                                                                ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:230: error: cannot find symbol
+    public static boolean search(Scanner sc, ArrayList<Mood> moods) {
+                                                       ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:262: error: cannot find symbol
+    public static void getAllMoods(ArrayList<Mood> moods) {
+                                             ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:269: error: cannot find symbol
+    public static void writeAllMoodsToAFile(ArrayList<Mood> moods) {
+                                                      ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:18: error: cannot find symbol
+        ArrayList<Mood> moods = new ArrayList<>();
+                  ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:67: error: cannot find symbol
+            Mood mood;
+            ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:78: error: cannot find symbol
+                    mood = new Mood(name, date, time);
+                               ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:80: error: cannot find symbol
+                    mood = new Mood(name, date, time, notes);
+                               ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:88: error: cannot find symbol
+                    mood = new Mood(name);
+                               ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:90: error: cannot find symbol
+                    mood = new Mood(name, notes);
+                               ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:96: error: cannot find symbol
+                throw new InvalidMoodException("Mood was already tracked for this time and date");
+                          ^
+  symbol:   class InvalidMoodException
+  location: class MoodTracker
+src/MoodTracker.java:104: error: cannot find symbol
+        } catch (InvalidMoodException ime) {
+                 ^
+  symbol:   class InvalidMoodException
+  location: class MoodTracker
+src/MoodTracker.java:149: error: cannot find symbol
+        return moods.removeIf(mood -> mood.equals(new Mood(name, date, time)));
+                                                      ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:162: error: cannot find symbol
+            Mood moodToEdit = null;
+            ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:164: error: cannot find symbol
+            for (Mood tempMood : moods) {
+                 ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:165: error: cannot find symbol
+                if (tempMood.equals(new Mood(name, date, time))) {
+                                        ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:172: error: cannot find symbol
+                throw new InvalidMoodException("Invalid input. Couldn't find mood.");
+                          ^
+  symbol:   class InvalidMoodException
+  location: class MoodTracker
+src/MoodTracker.java:187: error: cannot find symbol
+        } catch (InvalidMoodException ime) {
+                 ^
+  symbol:   class InvalidMoodException
+  location: class MoodTracker
+src/MoodTracker.java:221: error: cannot find symbol
+        for (Mood mood : moods) {
+             ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:231: error: cannot find symbol
+        Mood mood = null;
+        ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:240: error: cannot find symbol
+            for (Mood tempMood : moods) {
+                 ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:241: error: cannot find symbol
+                if (tempMood.equals(new Mood(name, date, time))) {
+                                        ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:249: error: cannot find symbol
+                throw new InvalidMoodException("Invalid input. Couldn't find mood.");
+                          ^
+  symbol:   class InvalidMoodException
+  location: class MoodTracker
+src/MoodTracker.java:254: error: cannot find symbol
+        } catch (InvalidMoodException ime) {
+                 ^
+  symbol:   class InvalidMoodException
+  location: class MoodTracker
+src/MoodTracker.java:263: error: cannot find symbol
+        for (Mood mood : moods) {
+             ^
+  symbol:   class Mood
+  location: class MoodTracker
+src/MoodTracker.java:271: error: cannot find symbol
+            for (Mood mood : moods) {
+                 ^
+  symbol:   class Mood
+  location: class MoodTracker
+32 errors
+theia@theia-aparnamogili:/home/project/final_proj$ export CLASSPATH=$CLASSPATH:/home/project/final_proj/classes
+theia@theia-aparnamogili:/home/project/final_proj$ touch /home/project/final_proj/src/MoodTracker.java
+theia@theia-aparnamogili:/home/project/final_proj$ 
+
+Press 'a' to add mood
+'d' to delete mood(s)
+'e' to edit mood
+'s' to search for moods
+'M' to get all moods
+'w' to write the moods to a file
+Type 'Exit' to exit
+a
+Please Enter Name: 
+Happy
+Are you tracking the mood for a current day? y/n
+n
+Please Enter date(in format : dd/MM/yyyy): 
+23/08/2025
+Please Enter time(in format : HH:mm:ss): 
+10:30:00
+Please Enter notes: 
+Feeling good today
+The mood has been added to the tracker
+Press 'a' to add mood
+'d' to delete mood(s)
+'e' to edit mood
+'s' to search for moods
+'M' to get all moods
+'w' to write the moods to a file
+Type 'Exit' to exit
+a
+Please Enter Name: 
+Sad
+Are you tracking the mood for a current day? y/n
+y
+Please Enter notes: 
+Missed my workout
+The mood has been added to the tracker
+Press 'a' to add mood
+'d' to delete mood(s)
+'e' to edit mood
+'s' to search for moods
+'M' to get all moods
+'w' to write the moods to a file
+Type 'Exit' to exit
+M
+Happy - 2025-08-23 10:30
+Feeling good today
+Sad - 2025-08-25 00:00
+Missed my workout
+Press 'a' to add mood
+'d' to delete mood(s)
+'e' to edit mood
+'s' to search for moods
+'M' to get all moods
+'w' to write the moods to a file
+Type 'Exit' to exit
+e
+Please Enter Name: 
+Happy
+Please Enter date(in format : dd/MM/yyyy): 
+23/08/2025
+Please Enter time(in format : HH:mm:ss): 
+10:30:00
+Please Enter notes: 
+Feeling awesome
+Updated Mood successfully!
+Press 'a' to add mood
+'d' to delete mood(s)
+'e' to edit mood
+'s' to search for moods
+'M' to get all moods
+'w' to write the moods to a file
+Type 'Exit' to exit
+s
+Do you want to search all moods by date or search a particular mood:
+ please enter 1 for searching moods by date.
+ please enter 2 for searching a mood.
+2
+Please Enter Name: 
+Sad
+Please Enter date(in format : dd/MM/yyyy): 
+25/08/2025
+Please Enter time(in format : HH:mm:ss): 
+00:00:00
+Sad - 2025-08-25 00:00
+Missed my workout
+Press 'a' to add mood
+'d' to delete mood(s)
+'e' to edit mood
+'s' to search for moods
+'M' to get all moods
+'w' to write the moods to a file
+Type 'Exit' to exit
+d
+Do you want to delete all moods by date or delete a particular mood:
+ please enter 1 for deleting moods by date.
+ please enter 2 for deleting a mood.
+2
+Please Enter Name: 
+Sad
+Please Enter date(in format : dd/MM/yyyy): 
+25/08/2025
+Please Enter time(in format : HH:mm:ss): 
+00:00:00
+The moods have been deleted
+Press 'a' to add mood
+'d' to delete mood(s)
+'e' to edit mood
+'s' to search for moods
+'M' to get all moods
+'w' to write the moods to a file
+Type 'Exit' to exit
+M
+Happy - 2025-08-23 10:30
+Feeling awesome
+Press 'a' to add mood
+'d' to delete mood(s)
+'e' to edit mood
+'s' to search for moods
+'M' to get all moods
+'w' to write the moods to a file
+Type 'Exit' to exit
+d
+Do you want to delete all moods by date or delete a particular mood:
+ please enter 1 for deleting moods by date.
+ please enter 2 for deleting a mood.
+1
+Please Enter date(in format : dd/MM/yyyy): 
+23/08/2025
+The moods have been deleted
+Press 'a' to add mood
+'d' to delete mood(s)
+'e' to edit mood
+'s' to search for moods
+'M' to get all moods
+'w' to write the moods to a file
+Type 'Exit' to exit
+M
+Press 'a' to add mood
+'d' to delete mood(s)
+'e' to edit mood
+'s' to search for moods
+'M' to get all moods
+'w' to write the moods to a file
+Type 'Exit' to exit
+w
+All moods have been written to moodtracker.txt
+Press 'a' to add mood
+'d' to delete mood(s)
+'e' to edit mood
+'s' to search for moods
+'M' to get all moods
+'w' to write the moods to a file
+Type 'Exit' to exit
+a
+Please Enter Name: 
+Angry
+Are you tracking the mood for a current day? y/n
+n
+Please Enter date(in format : dd/MM/yyyy): 
+32/13/2025
+Invalid date / time format! Cannot add mood
+Press 'a' to add mood
+'d' to delete mood(s)
+'e' to edit mood
+'s' to search for moods
+'M' to get all moods
+'w' to write the moods to a file
+Type 'Exit' to exit
+Exit
+Thanks for using the mood tracker application.

@@ -1,0 +1,350 @@
+theia@theia-aparnamogili:/home/project$ mkdir my_exception_proj
+theia@theia-aparnamogili:/home/project$ mkdir -p my_exception_proj/src
+
+theia@theia-aparnamogili:/home/project$ mkdir -p my_exception_proj/classes
+theia@theia-aparnamogili:/home/project$ mkdir -p my_exception_proj/test
+theia@theia-aparnamogili:/home/project$ cd my_exception_proj
+theia@theia-aparnamogili:/home/project/my_exception_pro
+j$ touch /home/project/my_exception_proj/src/ExceptionTrial.java
+theia@theia-aparnamogili:/home/project/my_exception_proj$ javac -d classes src/ExceptionTrial.java
+theia@theia-aparnamogili:/home/project/my_exception_proj$ export CLASSPATH=$CLASSPATH:/home/project/my_exception_proj/classes
+theia@theia-aparnamogili:/home/project/my_exception_proj$ java ExceptionTrial
+Press 1 to add String, 
+2 to get String from a particular index, 
+3 to get the length string in any index, 
+4 to get all the strings in the array 
+any other key to exit
+1
+Enter the String 
+gvmkmm jnjn
+Press 1 to add String, 
+2 to get String from a particular index, 
+3 to get the length string in any index, 
+4 to get all the strings in the array 
+any other key to exit
+1
+Enter the String 
+bhjghjkm kjk
+Press 1 to add String, 
+2 to get String from a particular index, 
+3 to get the length string in any index, 
+4 to get all the strings in the array 
+any other key to exit
+2
+Enter the index you want to retrieve 
+7
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 5
+        at ExceptionTrial.main(ExceptionTrial.java:49)
+theia@theia-aparnamogili:/home/project/my_exception_proj$ 1
+bash: 1: command not found
+theia@theia-aparnamogili:/home/project/my_exception_proj$ java ExceptionTrial
+Press 1 to add String, 
+2 to get String from a particular index, 
+3 to get the length string in any index, 
+4 to get all the strings in the array 
+any other key to exit
+3
+Enter the index you check the length of 
+two
+Exception in thread "main" java.lang.NumberFormatException: For input string: "two"
+        at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+        at java.base/java.lang.Integer.parseInt(Integer.java:662)
+        at java.base/java.lang.Integer.parseInt(Integer.java:778)
+        at ExceptionTrial.main(ExceptionTrial.java:56)
+theia@theia-aparnamogili:/home/project/my_exception_proj$ java ExceptionTrial
+Press 1 to add String, 
+2 to get String from a particular index, 
+3 to get the length string in any index, 
+4 to get all the strings in the array 
+any other key to exit
+3
+Enter the index you check the length of 
+2
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.length()" because "<local2>[<local5>]" is null
+        at ExceptionTrial.main(ExceptionTrial.java:59)
+theia@theia-aparnamogili:/home/project/my_exception_proj$ javac -d classes src/ExceptionTrial.java
+theia@theia-aparnamogili:/home/project/my_exception_proj$ java ExceptionTrial
+Press 1 to add String, 
+2 to get String from a particular index, 
+3 to get the length string in any index, 
+4 to get all the strings in the array 
+any other key to exit
+1
+Enter the String 
+jnk
+Press 1 to add String, 
+2 to get String from a particular index, 
+3 to get the length string in any index, 
+4 to get all the strings in the array 
+any other key to exit
+2
+Enter the index you want to retrieve 
+7
+Invalid index! Please enter an index between 0 and 4
+Press 1 to add String, 
+2 to get String from a particular index, 
+3 to get the length string in any index, 
+4 to get all the strings in the array 
+any other key to exit
+2
+Enter the index you want to retrieve 
+two
+Invalid input! Please enter a valid integer.
+Press 1 to add String, 
+2 to get String from a particular index, 
+3 to get the length string in any index, 
+4 to get all the strings in the array 
+any other key to exit
+3
+Enter the index you check the length of 
+4
+No string exists at the specified index!
+Press 1 to add String, 
+2 to get String from a particular index, 
+3 to get the length string in any index, 
+4 to get all the strings in the array 
+any other key to exit
+touch src/StudentManagement.java
+theia@theia-aparnamogili:/home/project/my_exception_proj$ javac -d classes src/StudentManagement.java
+src/StudentManagement.java:60: error: unreported exception CloneNotSupportedException; must be caught or declared to be thrown
+        Student student2 = student1.clone();
+                                         ^
+1 error
+theia@theia-aparnamogili:/home/project/my_exception_proj$ javac -d classes src/StudentManagement.java
+theia@theia-aparnamogili:/home/project/my_exception_proj$ java   
+Usage: java [options] <mainclass> [args...]
+           (to execute a class)
+   or  java [options] -jar <jarfile> [args...]
+           (to execute a jar file)
+   or  java [options] -m <module>[/<mainclass>] [args...]
+       java [options] --module <module>[/<mainclass>] [args...]
+           (to execute the main class in a module)
+   or  java [options] <sourcefile> [args]
+           (to execute a single source-file program)
+
+ Arguments following the main class, source file, -jar <jarfile>,
+ -m or --module <module>/<mainclass> are passed as the arguments to
+ main class.
+
+ where options include:
+
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+    --class-path <class search path of directories and zip/jar files>
+                  A : separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -p <module path>
+    --module-path <module path>...
+                  A : separated list of elements, each element is a file path
+                  to a module or a directory containing modules. Each module is either
+                  a modular JAR or an exploded-module directory.
+    --upgrade-module-path <module path>...
+                  A : separated list of elements, each element is a file path
+                  to a module or a directory containing modules to replace
+                  upgradeable modules in the runtime image. Each module is either
+                  a modular JAR or an exploded-module directory.
+    --add-modules <module name>[,<module name>...]
+                  root modules to resolve in addition to the initial module.
+                  <module name> can also be ALL-DEFAULT, ALL-SYSTEM,
+                  ALL-MODULE-PATH.
+    --enable-native-access <module name>[,<module name>...]
+                  modules that are permitted to perform restricted native operations.
+                  <module name> can also be ALL-UNNAMED.
+    --list-modules
+                  list observable modules and exit
+    -d <module name>
+    --describe-module <module name>
+                  describe a module and exit
+    --dry-run     create VM and load main class but do not execute main method.
+                  The --dry-run option may be useful for validating the
+                  command-line options such as the module system configuration.
+    --validate-modules
+                  validate all modules and exit
+                  The --validate-modules option may be useful for finding
+                  conflicts and other errors with modules on the module path.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|module|gc|jni]
+                  enable verbose output for the given subsystem
+    -version      print product version to the error stream and exit
+    --version     print product version to the output stream and exit
+    -showversion  print product version to the error stream and continue
+    --show-version
+                  print product version to the output stream and continue
+    --show-module-resolution
+                  show module resolution output during startup
+    -? -h -help
+                  print this help message to the error stream
+    --help        print this help message to the output stream
+    -X            print help on extra options to the error stream
+    --help-extra  print help on extra options to the output stream
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:jdwp
+                  see also -agentlib:jdwp=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+                  HiDPI scaled images are automatically supported and used
+                  if available. The unscaled image filename, e.g. image.ext,
+                  should always be passed as the argument to the -splash option.
+                  The most appropriate scaled image provided will be picked up
+                  automatically.
+                  See the SplashScreen API documentation for more information
+    @argument files
+                  one or more argument files containing options
+    --disable-@files
+                  prevent further argument file expansion
+    --enable-preview
+                  allow classes to depend on preview features of this release
+To specify an argument for a long option, you can use --<name>=<value> or
+--<name> <value>.
+
+theia@theia-aparnamogili:/home/project/my_exception_proj$ java StudentManagement
+Original Student: Student [name=John Doe, age=20, major=Computer Science]
+Cloned Student: Student [name=John Doe, age=20, major=Computer Science]
+
+After modifying the cloned object:
+Original Student: Student [name=John Doe, age=20, major=Computer Science]
+Cloned Student: Student [name=Jane Doe, age=21, major=Mathematics]
+theia@theia-aparnamogili:/home/project/my_exception_proj$ touch src/StudentUnderAgeException.java
+theia@theia-aparnamogili:/home/project/my_exception_proj$ javac -d classes src/StudentUnderAgeException.java
+theia@theia-aparnamogili:/home/project/my_exception_proj$ javac -d classes src/StudentManagement.java
+theia@theia-aparnamogili:/home/project/my_exception_proj$ java StudentManagement
+Enter student name
+Lav
+Enter student age
+forty
+Age has to be a number
+theia@theia-aparnamogili:/home/project/my_exception_proj$ java StudentManagement
+Enter student name
+Lav
+Enter student age
+17
+Enter student major
+Data Science
+Student age has to be 18 or more
+theia@theia-aparnamogili:/home/project/my_exception_proj$ java StudentManagement
+Enter student name
+Lav
+Enter student age
+30
+Enter student major
+ML
+Student: Student [name=Lav, age=30, major=ML] successfully created!
+Student: Student [name=Lav, age=30, major=ML] successfully cloned!
+theia@theia-aparnamogili:/home/project/my_exception_proj$ touch src/InvalidStudentNameException.java
+theia@theia-aparnamogili:/home/project/my_
+theia@theia-aparnamogili:/home/project/my_
+theia@theia-aparnamogili:/home/project/my_ex
+theia@theia-aparnamogili:/home/project/my_exception
+theia@theia-aparnamogili:/home/project/my_exception_proj$ javac -d classes src/InvalidStudentNameException.java 
+src/InvalidStudentNameException.java:3: error: cannot find symbol
+        super(message);
+              ^
+  symbol:   variable message
+  location: class InvalidStudentNameException
+1 error
+theia@theia-aparnamogili:/home/project/my_exception_proj$ javac -d classes src/InvalidStudentNameException.java 
+theia@theia-aparnamogili:/home/project/my_exception_proj$ java StudentManagement
+Enter student name
+theia@theia-aparnamogili:/home/project/my_exception_proj$ javac -d classes src/StudentManagement.java
+theia@theia-aparnamogili:/home/project/my_exception_proj$ java StudentManagement
+Enter student name
+Pandu
+Enter student age
+13
+Enter student major
+Collector
+Student age has to be 18 or more
+theia@theia-aparnamogili:/home/project/my_exception_proj$ java StudentManagement
+Enter student name
+Archana
+Enter student age
+18
+Enter student major
+HSC
+Student: Student [name=Archana, age=18, major=HSC] successfully created!
+Student: Student [name=Archana, age=18, major=HSC] successfully cloned!
+theia@theia-aparnamogili:/home/project/my_exception_proj$ java StudentManagement
+Enter student name
+12345
+Enter student age
+34
+Enter student major
+MSC
+Exception in thread "main" InvalidStudentNameException: name should not contain any numbers or special characters
+        at Student.<init>(StudentManagement.java:18)
+        at StudentManagement.main(StudentManagement.java:75)
+theia@theia-aparnamogili:/home/project/my_exception_proj$ j
+avac -d classes src/StudentManagement.java
+theia@theia-aparnamogili:/home/project/my_exception
+_proj$ java StudentManagement
+Enter student name
+123*j  
+Enter student age
+34
+Enter student major
+BSP
+name should not contain any numbers or special characters
+theia@theia-aparnamogili:/home/project/my_exception
+_proj$ java StudentManagement
+Enter student name
+jnjaa&@123
+Enter student age
+34
+Enter student major
+BPC
+name should not contain any numbers or special characters
+theia@theia-aparnamogili:/home/project/my_exception
+_proj$ java StudentManagement
+Enter student name
+uondm+
+Enter student age
+34
+Enter student major
+BPS
+name should not contain any numbers or special characters
+theia@theia-aparnamogili:/home/project/my_exception
+_proj$ java StudentManagement
+Enter student name
+kdka
+Enter student age
+34
+Enter student major
+HDP
+Student: Student [name=kdka, age=34, major=HDP] successfully created!
+Student: Student [name=kdka, age=34, major=HDP] successfully cloned!
+theia@theia-aparnamogili:/home/project/my_exception
+_proj$ java StudentManagement
+Enter student name
+yuodnc$
+Enter student age
+34
+Enter student major
+MPC
+name should not contain any numbers or special characters
+theia@theia-aparnamogili:/home/project/my_exception
+_proj$ java StudentManagement
+Enter student name
+aparna mogili
+Enter student age
+45
+Enter student major
+Information Technology
+Student: Student [name=aparna mogili, age=45, major=Information Technology] successfully created!
+Student: Student [name=aparna mogili, age=45, major=Information Technology] successfully cloned!
+theia@theia-aparnamogili:/home/project/my_exception
+_proj$ 

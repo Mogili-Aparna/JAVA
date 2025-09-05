@@ -1,0 +1,380 @@
+theia@theia-aparnamogili:/home/project$ mkdir my_hashmap_proj
+theia@theia-aparnamogili:/home/project$ mkdir -p my_hashmap_proj/src
+theia@theia-aparnamogili:/home/project$ mkdir -p my_hashmap_proj/classes
+theia@theia-aparnamogili:/home/project$ mkdir -p my_hashmap_proj/test
+theia@theia-aparnamogili:/home/project$ cd my_hashmap_proj
+theia@theia-aparnamogili:/home/project/my_hashmap_
+proj$ touch /home/project/my_hashmap_proj/src/PhoneBookHashMap.java
+theia@theia-aparnamogili:/home/project/my_hashmap_
+proj$ javac -d classes src/PhoneBookHashMap.java
+theia@theia-aparnamogili:/home/project/my_hashmap_
+proj$ export CLASSPATH=$CLASSPATH:/home/project/my_hashmap_proj/classes
+theia@theia-aparnamogili:/home/project/my_hashmap_
+proj$ java PhoneBookHashMap
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+Any other key to exit
+1
+Enter a name
+Aps
+Enter the phone number
+911234567890
+The name and number have been added to the phonebook.
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+Any other key to exit
+1
+Enter a name
+Anirudh
+Enter the phone number
+129876540321
+The name and number have been added to the phonebook.
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+Any other key to exit
+2
+Anirudh: 129876540321
+Aps: 911234567890
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+Any other key to exit
+3
+Enter the name you want to search
+Aps
+The phone number you are looking for is 911234567890
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+Any other key to exit
+4
+Enter the name you want to delete 
+Aps
+The entry has been removed.
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+Any other key to exit
+2
+Anirudh: 129876540321
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+Any other key to exit
+4
+Enter the name you want to delete 
+Anirudh
+The entry has been removed.
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+Any other key to exit
+2
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+Any other key to exit
+
+theia@theia-aparnamogili:/home/project/my_hashmap_
+proj$ javac -d classes src/PhoneBookHashMap.java
+theia@theia-aparnamogili:/home/project/my_hashmap_
+proj$ java PhoneBookHashMap
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+5 to sort the entries by name
+6 to write the entries onto a file
+Any other key to exit
+1
+Enter a name
+Aps
+Enter the phone number
++91 1234567890
+The name and number have been added to the phonebook.
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+5 to sort the entries by name
+6 to write the entries onto a file
+Any other key to exit
+1
+Enter a name
+Anirudh
+Enter the phone number
++12 3405678921
+The name and number have been added to the phonebook.
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+5 to sort the entries by name
+6 to write the entries onto a file
+Any other key to exit
+1
+Enter a name
+Anitha
+Enter the phone number
++23 1045678932
+The name and number have been added to the phonebook.
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+5 to sort the entries by name
+6 to write the entries onto a file
+Any other key to exit
+1
+Enter a name
+Anusha
+Enter the phone number
++34 5021678943
+The name and number have been added to the phonebook.
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+5 to sort the entries by name
+6 to write the entries onto a file
+Any other key to exit
+1
+Enter a name
+Rowdy
+Enter the phone number
++56 7890123465
+The name and number have been added to the phonebook.
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+5 to sort the entries by name
+6 to write the entries onto a file
+Any other key to exit
+1
+Enter a name
+Archana
+Enter the phone number
++67 8901234576
+The name and number have been added to the phonebook.
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+5 to sort the entries by name
+6 to write the entries onto a file
+Any other key to exit
+1
+Enter a name
+Yogi 
+Enter the phone number
++89 1023456798
+The name and number have been added to the phonebook.
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+5 to sort the entries by name
+6 to write the entries onto a file
+Any other key to exit
+2
+Yogi : +89 1023456798
+Anirudh: +12 3405678921
+Anusha: +34 5021678943
+Aps: +91 1234567890
+Rowdy: +56 7890123465
+Anitha: +23 1045678932
+Archana: +67 8901234576
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+5 to sort the entries by name
+6 to write the entries onto a file
+Any other key to exit
+5
+Anirudh: +12 3405678921
+Anitha: +23 1045678932
+Anusha: +34 5021678943
+Aps: +91 1234567890
+Archana: +67 8901234576
+Rowdy: +56 7890123465
+Yogi : +89 1023456798
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+5 to sort the entries by name
+6 to write the entries onto a file
+Any other key to exit
+6
+The entries are written to a file
+Press 1 to add an entry in the phonebook,
+2 to view all the entries
+3 to search for entries with name
+4 to delete an entry
+5 to sort the entries by name
+6 to write the entries onto a file
+Any other key to exit
+
+theia@theia-aparnamogili:/home/project/my_hashmap_proj$ javac -d classes src/Task.java            
+theia@theia-aparnamogili:/home/project/my_hashmap_proj$ javac -d classes src/TaskManagement.java 
+theia@theia-aparnamogili:/home/project/my_hashmap_proj$ java TaskManagement
+
+Task Management Menu:
+1. Add Task
+2. View Task by Name
+3. Update Task Status
+4. List All Tasks
+5. Delete Task
+6. Exit
+Choose an option: 1
+Enter task name: Revise HashMaps
+Enter description: revisit usage of hashmaps
+Enter priority (1=Low, 2=Medium, 3=High): 3
+Enter status: Completed
+Task added successfully.
+
+Task Management Menu:
+1. Add Task
+2. View Task by Name
+3. Update Task Status
+4. List All Tasks
+5. Delete Task
+6. Exit
+Choose an option: 1
+Enter task name: Learn Java
+Enter description: revise java for interviews
+Enter priority (1=Low, 2=Medium, 3=High): 3
+Enter status: IN Progress
+Task added successfully.
+
+Task Management Menu:
+1. Add Task
+2. View Task by Name
+3. Update Task Status
+4. List All Tasks
+5. Delete Task
+6. Exit
+Choose an option: 2
+Enter task name to view: Learn Java
+Name: Learn Java
+Description: revise java for interviews
+Priority: 3
+Status: IN Progress
+
+Task Management Menu:
+1. Add Task
+2. View Task by Name
+3. Update Task Status
+4. List All Tasks
+5. Delete Task
+6. Exit
+Choose an option: 3
+Enter task name to update status: Learn Java
+Enter new status: In Progress
+Status updated successfully.
+
+Task Management Menu:
+1. Add Task
+2. View Task by Name
+3. Update Task Status
+4. List All Tasks
+5. Delete Task
+6. Exit
+Choose an option: 2
+Enter task name to view: Learn Java
+Name: Learn Java
+Description: revise java for interviews
+Priority: 3
+Status: In Progress
+
+Task Management Menu:
+1. Add Task
+2. View Task by Name
+3. Update Task Status
+4. List All Tasks
+5. Delete Task
+6. Exit
+Choose an option: 4
+All Tasks:
+----------------------
+Name: Revise HashMaps
+Description: revisit usage of hashmaps
+Priority: 3
+Status: Completed
+----------------------
+Name: Learn Java
+Description: revise java for interviews
+Priority: 3
+Status: In Progress
+
+Task Management Menu:
+1. Add Task
+2. View Task by Name
+3. Update Task Status
+4. List All Tasks
+5. Delete Task
+6. Exit
+Choose an option: 5
+Enter task name to delete: revise Hashmaps
+Task not found.
+
+Task Management Menu:
+1. Add Task
+2. View Task by Name
+3. Update Task Status
+4. List All Tasks
+5. Delete Task
+6. Exit
+Choose an option: Revise HashMaps
+Invalid option. Please try again.
+
+Task Management Menu:
+1. Add Task
+2. View Task by Name
+3. Update Task Status
+4. List All Tasks
+5. Delete Task
+6. Exit
+Choose an option: 5              
+Enter task name to delete: Revise HashMaps
+Task deleted successfully.
+
+Task Management Menu:
+1. Add Task
+2. View Task by Name
+3. Update Task Status
+4. List All Tasks
+5. Delete Task
+6. Exit
+Choose an option: 4
+All Tasks:
+----------------------
+Name: Learn Java
+Description: revise java for interviews
+Priority: 3
+Status: In Progress
+
+Task Management Menu:
+1. Add Task
+2. View Task by Name
+3. Update Task Status
+4. List All Tasks
+5. Delete Task
+6. Exit
+Choose an option: 6
+Exiting program.
+theia@theia-aparnamogili:/home/project/my_hashmap_proj$ 

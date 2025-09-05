@@ -1,0 +1,67 @@
+theia@theia-aparnamogili:/home/project$ mkdir my_fileio_proj
+theia@theia-aparnamogili:/home/project$ mkdir -p my_fileio_proj/src
+theia@theia-aparnamogili:/home/project$ mkdir -p my_fileio_proj/classes
+theia@theia-aparnamogili:/home/project$ mkdir -p my_fileio_proj/test
+theia@theia-aparnamogili:/home/project$ cd my_fileio_proj
+theia@theia-aparnamogili:/home/project/my_fileio_p
+roj$ touch /home/project/my_fileio_proj/src/ReadFileExampleWithScanner.java
+theia@theia-aparnamogili:/home/project/my_fileio_proj$ javac -d classes src/ReadFileExampleWithScanner.java
+src/ReadFileExampleWithScanner.java:18: error: ';' expected
+            System.err.println("Error reading file: " + e.getMessage())
+                                                                       ^
+1 error
+theia@theia-aparnamogili:/home/project/my_fileio_proj$ export CLASSPATH=$CLASSPATH:/home/project/my_fileio_proj/classes
+theia@theia-aparnamogili:/home/project/my_fileio_proj$ javac -d classes src/ReadFileExampleWithScanner.java
+src/ReadFileExampleWithScanner.java:3: error: cannot find symbol
+import java.io.FileNotFOundException;
+              ^
+  symbol:   class FileNotFOundException
+  location: package java.io
+src/ReadFileExampleWithScanner.java:17: error: cannot find symbol
+        catch(FileNotFoundException fne){
+              ^
+  symbol:   class FileNotFoundException
+  location: class ReadFileExampleWithScanner
+src/ReadFileExampleWithScanner.java:18: error: cannot find symbol
+            System.err.println("Error reading file: " + e.getMessage());
+                                                        ^
+  symbol:   variable e
+  location: class ReadFileExampleWithScanner
+3 errors
+theia@theia-aparnamogili:/home/project/my_fileio_proj$ javac -d classes src/ReadFileExampleWithScanner.java
+src/ReadFileExampleWithScanner.java:18: error: cannot find symbol
+            System.err.println("Error reading file: " + e.getMessage());
+                                                        ^
+  symbol:   variable e
+  location: class ReadFileExampleWithScanner
+1 error
+theia@theia-aparnamogili:/home/project/my_fileio_proj$ javac -d classes src/ReadFileExampleWithScanner.java
+theia@theia-aparnamogili:/home/project/my_fileio_proj$ java ReadFileExampleWithScanner
+Enter the name of the file you want to read.
+/home/project/my_fileio_proj/src/ReadFileExampleWithScanner.java
+import java.io.FileReader;
+import java.util.Scanner;
+import java.io.FileNotFoundException;
+
+class ReadFileExampleWithScanner{
+    public static void main(String[] args){
+        try{
+            Scanner scanner = new Scanner(System.in);
+                        System.out.println("Enter the name of the file you want to read.");
+                        Scanner fileScanner = new Scanner(new FileReader(scanner.nextLine()));
+                        while(fileScanner.hasNext()){
+                            String fileLine = fileScanner.nextLine();
+                            System.out.println(fileLine);
+                        }
+                        fileScanner.close();
+        }
+        catch(FileNotFoundException fne){
+            System.err.println("Error reading file: " + fne.getMessage());
+        }
+    }
+}
+theia@theia-aparnamogili:/home/project/my_fileio_proj$ java ReadFileExampleWithScanner
+Enter the name of the file you want to read.
+kk
+Error reading file: kk (No such file or directory)
+theia@theia-aparnamogili:/home/project/my_fileio_proj$ 

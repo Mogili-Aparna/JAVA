@@ -1,0 +1,645 @@
+theia@theia-aparnamogili:/home/project$ mkdir final_proj
+theia@theia-aparnamogili:/home/project$ mkdir -p final_proj/src
+theia@theia-aparnamogili:/home/project$ mkdir -p final_proj/classes
+theia@theia-aparnamogili:/home/project$ mkdir -p final_proj/test
+theia@theia-aparnamogili:/home/project$ cd final_proj
+theia@theia-aparnamogili:/home/project/final_proj$ 
+touch /home/project/final_proj/src/GroceryShopping.java
+theia@theia-aparnamogili:/home/project/final_proj$ touch /home/project/final_proj/src/ItemNotFoundException
+theia@theia-aparnamogili:/home/project/final_proj$ t
+ouch /home/project/final_proj/src/ItemNotFoundException.java
+theia@theia-aparnamogili:/home/project/final_proj$ java -d classes src/ItemNotFoundException.java 
+classes not found
+theia@theia-aparnamogili:/home/project/final_proj$ theia@theia-aparnamogili:/home/project/final_proj$ theia@theia-aparnamogili:/home/project/final_proj$ theia@theia-aparnamogili:/home/project/final_proj$ j
+avac -d classes src/ItemNotFoundException.java 
+theia@theia-aparnamogili:/home/project/final_proj$ 
+javac -d classes src/GroceryShopping.java       
+src/GroceryShopping.java:65: error: ';' expected
+                throw new ItemNotFoundException("Item '" + inputItem + "' not found. Please try again.")
+                                                                                                        ^
+1 error
+theia@theia-aparnamogili:/home/project/final_proj$ 
+javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:52: error: cannot find symbol
+            int itemIndex = groceries.indexOf(inputItem);
+                                     ^
+  symbol:   method indexOf(String)
+  location: variable groceries of type String[]
+src/GroceryShopping.java:55: error: cannot find symbol
+                System.out.println("Enter the quantity of " + item[itemIndex] + ":");
+                                                              ^
+  symbol:   variable item
+  location: class GroceryShopping
+src/GroceryShopping.java:56: error: cannot find symbol
+                int quantity = scanner.nextInt();
+                               ^
+  symbol:   variable scanner
+  location: class GroceryShopping
+src/GroceryShopping.java:57: error: cannot find symbol
+                scanner.nextLine(); // Consume the newline character
+                ^
+  symbol:   variable scanner
+  location: class GroceryShopping
+src/GroceryShopping.java:59: error: cannot find symbol
+                float itemCost = price[itemIndex] * quantity;
+                                 ^
+  symbol:   variable price
+  location: class GroceryShopping
+src/GroceryShopping.java:61: error: cannot find symbol
+                System.out.println("Added " + quantity + " x " + item[itemIndex] + " to the bill. Current total: $" + totalBill);
+                                                                 ^
+  symbol:   variable item
+  location: class GroceryShopping
+src/GroceryShopping.java:65: error: cannot find symbol
+                throw new ItemNotFoundException("Item '" + inputItem + "' not found. Please try again.");
+                          ^
+  symbol:   class ItemNotFoundException
+  location: class GroceryShopping
+7 errors
+theia@theia-aparnamogili:/home/project/final_proj$ 
+javac -d classes src/ItemNotFoundException.java 
+theia@theia-aparnamogili:/home/project/final_proj$ 
+echo classpath
+classpath
+theia@theia-aparnamogili:/home/project/final_proj$ 
+echo $CLASSPATH
+/home/theia/dsdriver/tools/clpplus.jar:/home/theia/dsdriver/tools/jline-0.9.93.jar:/home/theia/dsdriver/tools/antlr-3.3-java.jar:/home/theia/dsdriver/java/db2jcc4.jar:/home/theia/dsdriver/java/sqlj4.zip:
+theia@theia-aparnamogili:/home/project/final_proj$ 
+CLASSPATH=CLASSPATH:/home/project/final_proj/classes/
+theia@theia-aparnamogili:/home/project/final_proj$ 
+echo $CLASSPATH
+CLASSPATH:/home/project/final_proj/classes/
+theia@theia-aparnamogili:/home/project/final_proj$ 
+CLASSPATH=/home/theia/dsdriver/tools/clpplus.jar:/home/theia/dsdriver/tools/jline-0.9.93.jar:/home/theia/dsdriver/tools/antlr-3.3-java.jar:/home/theia/dsdriver/java/db2jcc4.jar:/home/theia/dsdriver/java/sqlj4.zip:/home/project/final_proj/classes/
+theia@theia-aparnamogili:/home/project/final_proj$ 
+echo $CLASSPATH
+/home/theia/dsdriver/tools/clpplus.jar:/home/theia/dsdriver/tools/jline-0.9.93.jar:/home/theia/dsdriver/tools/antlr-3.3-java.jar:/home/theia/dsdriver/java/db2jcc4.jar:/home/theia/dsdriver/java/sqlj4.zip:/home/project/final_proj/classes/
+theia@theia-aparnamogili:/home/project/final_proj$ 
+javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:52: error: cannot find symbol
+            int itemIndex = groceries.indexOf(inputItem);
+                                     ^
+  symbol:   method indexOf(String)
+  location: variable groceries of type String[]
+src/GroceryShopping.java:55: error: cannot find symbol
+                System.out.println("Enter the quantity of " + item[itemIndex] + ":");
+                                                              ^
+  symbol:   variable item
+  location: class GroceryShopping
+src/GroceryShopping.java:56: error: cannot find symbol
+                int quantity = scanner.nextInt();
+                               ^
+  symbol:   variable scanner
+  location: class GroceryShopping
+src/GroceryShopping.java:57: error: cannot find symbol
+                scanner.nextLine(); // Consume the newline character
+                ^
+  symbol:   variable scanner
+  location: class GroceryShopping
+src/GroceryShopping.java:59: error: cannot find symbol
+                float itemCost = price[itemIndex] * quantity;
+                                 ^
+  symbol:   variable price
+  location: class GroceryShopping
+src/GroceryShopping.java:61: error: cannot find symbol
+                System.out.println("Added " + quantity + " x " + item[itemIndex] + " to the bill. Current total: $" + totalBill);
+                                                                 ^
+  symbol:   variable item
+  location: class GroceryShopping
+6 errors
+theia@theia-aparnamogili:/home/project/final_proj$ 
+javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:55: error: cannot find symbol
+                System.out.println("Enter the quantity of " + item[itemIndex] + ":");
+                                                              ^
+  symbol:   variable item
+  location: class GroceryShopping
+1 error
+theia@theia-aparnamogili:/home/project/final_proj$ 
+javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:65: error: unreported exception ItemNotFoundException; must be caught or declared to be thrown
+                throw new ItemNotFoundException("Item '" + inputItem + "' not found. Please try again.");
+                ^
+1 error
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+theia@theia-aparnamogili:/home/project/final_proj$ java GroceryShopping 
+Enter the name of the item (or type 'finish' to end shopping):
+Rice
+Enter the quantity of Rice:
+2
+Added 2 x Rice to the bill. Current total: $111.0
+Enter the name of the item (or type 'finish' to end shopping):
+Eggs
+Enter the quantity of Eggs:
+4
+Added 4 x Eggs to the bill. Current total: $351.0
+Enter the name of the item (or type 'finish' to end shopping):
+Onions
+Enter the quantity of Onions:
+2
+Added 2 x Onions to the bill. Current total: $401.0
+Enter the name of the item (or type 'finish' to end shopping):
+Capsicum
+Item 'Capsicum' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+Chicken
+Enter the quantity of Chicken:
+1
+Added 1 x Chicken to the bill. Current total: $651.0
+Enter the name of the item (or type 'finish' to end shopping):
+Salt
+Enter the quantity of Salt:
+1
+Added 1 x Salt to the bill. Current total: $671.0
+Enter the name of the item (or type 'finish' to end shopping):
+Tomatoes
+Enter the quantity of Tomatoes:
+2
+Added 2 x Tomatoes to the bill. Current total: $731.0
+Enter the name of the item (or type 'finish' to end shopping):
+finisj
+Item 'finisj' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+finish
+Your total bill is: $731.0
+Thank you for shopping with us!
+
+Enter the name of the item (or type 'finish' to end shopping):
+finish
+Your total bill is: $731.0
+Thank you for shopping with us!
+exit
+Thank you for using the shopping cart. Goodbye!
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:83: error: cannot find symbol
+        searchItem("Capsicum",items);
+                              ^
+  symbol:   variable items
+  location: class GroceryShopping
+src/GroceryShopping.java:84: error: cannot find symbol
+        searchItem("Chicken",items);
+                             ^
+  symbol:   variable items
+  location: class GroceryShopping
+src/GroceryShopping.java:85: error: cannot find symbol
+        searchItem("rice",items);
+                          ^
+  symbol:   variable items
+  location: class GroceryShopping
+src/GroceryShopping.java:86: error: cannot find symbol
+        searchItem("Eggs",items);
+                          ^
+  symbol:   variable items
+  location: class GroceryShopping
+src/GroceryShopping.java:87: error: cannot find symbol
+        searchItem("unknowItem",items);
+                                ^
+  symbol:   variable items
+  location: class GroceryShopping
+src/GroceryShopping.java:109: error: cannot find symbol
+             throw new ItemNotFoundException("Item '" + inputItem + "' not found. Please try again.");
+                                                        ^
+  symbol:   variable inputItem
+  location: class GroceryShopping
+src/GroceryShopping.java:118: error: incompatible types: possible lossy conversion from float to int
+            for(int ele:prices){
+                        ^
+src/GroceryShopping.java:121: error: incompatible types: possible lossy conversion from float to int
+            return sum/prices.length;
+                      ^
+src/GroceryShopping.java:123: error: cannot find symbol
+        catch(ArthemticException ae){
+              ^
+  symbol:   class ArthemticException
+  location: class GroceryShopping
+src/GroceryShopping.java:130: error: cannot find symbol
+        catch(NullPointerExpection npe){
+              ^
+  symbol:   class NullPointerExpection
+  location: class GroceryShopping
+src/GroceryShopping.java:131: error: cannot find symbol
+            if(price == null){
+               ^
+  symbol:   variable price
+  location: class GroceryShopping
+11 errors
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:121: error: incompatible types: possible lossy conversion from float to int
+            return sum/(float)prices.length;
+                      ^
+src/GroceryShopping.java:128: error: cannot find symbol
+                System.out.println(ae.message);
+                                     ^
+  symbol:   variable message
+  location: variable ae of type ArithmeticException
+src/GroceryShopping.java:135: error: cannot find symbol
+                System.out.println(npe.message);
+                                      ^
+  symbol:   variable message
+  location: variable npe of type NullPointerException
+3 errors
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:137: error: missing return statement
+    }
+    ^
+src/GroceryShopping.java:109: error: unreported exception ItemNotFoundException; must be caught or declared to be thrown
+             throw new ItemNotFoundException("Item '" + searchItem + "' not found. Please try again.");
+             ^
+2 errors
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:109: error: unreported exception ItemNotFoundException; must be caught or declared to be thrown
+             throw new ItemNotFoundException("Item '" + searchItem + "' not found. Please try again.");
+             ^
+1 error
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:90: error: exception ItemNotFoundException is never thrown in body of corresponding try statement
+        catch(ItemNotFoundException infe){
+        ^
+src/GroceryShopping.java:114: error: unreported exception ItemNotFoundException; must be caught or declared to be thrown
+             throw new ItemNotFoundException("Item '" + searchItem + "' not found. Please try again.");
+             ^
+2 errors
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+theia@theia-aparnamogili:/home/project/final_proj$ java GroceryShopping
+Enter the name of the item (or type 'finish' to end shopping):
+Eggs
+Enter the quantity of Eggs:
+4
+Added 4 x Eggs to the bill. Current total: $240.0
+Enter the name of the item (or type 'finish' to end shopping):
+Rice
+Enter the quantity of Rice:
+1
+Added 1 x Rice to the bill. Current total: $295.5
+Enter the name of the item (or type 'finish' to end shopping):
+Salt
+Enter the quantity of Salt:
+1
+Added 1 x Salt to the bill. Current total: $315.5
+Enter the name of the item (or type 'finish' to end shopping):
+Onion
+Item 'Onion' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+2
+Item '2' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+finish
+Your total bill is: $315.5
+Thank you for shopping with us!
+exit
+Thank you for using the shopping cart. Goodbye!
+Item 'Capsicum' not found. Please try again.
+Average price of groceries:70.26667
+Average price empty array:NaN
+Average price empty array:NaN
+float array of prices has to be initialized
+Average price null object:0.0
+Average price of : {10.5f, 20.3f, 30.7f}t:20.5
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+theia@theia-aparnamogili:/home/project/final_proj$ java GroceryShopping
+Enter the name of the item (or type 'finish' to end shopping):
+Rice
+Enter the quantity of Rice:
+1
+Added 1 x Rice to the bill. Current total: $55.5
+Enter the name of the item (or type 'finish' to end shopping):
+Egga
+Item 'Egga' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+Eggs
+Enter the quantity of Eggs:
+4
+Added 4 x Eggs to the bill. Current total: $295.5
+Enter the name of the item (or type 'finish' to end shopping):
+Onion
+Item 'Onion' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+2
+Item '2' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+Potatoes
+Enter the quantity of Potatoes:
+6
+Added 6 x Potatoes to the bill. Current total: $427.5
+Enter the name of the item (or type 'finish' to end shopping):
+salt 
+Item 'salt' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+Salt
+Enter the quantity of Salt:
+1
+Added 1 x Salt to the bill. Current total: $447.5
+Enter the name of the item (or type 'finish' to end shopping):
+finish
+Your total bill is: $447.5
+Thank you for shopping with us!
+exit
+Thank you for using the shopping cart. Goodbye!
+Item 'Capsicum' not found. Please try again.
+Average price of groceries:70.26667
+float array of prices cannot be empty.
+Average price empty array:0.0
+float array of prices cannot be empty.
+Average price empty array:0.0
+float array of prices has to be initialized
+Average price null object:0.0
+Average price of : {10.5f, 20.3f, 30.7f}t:20.5
+Test 1: Threshold = 50
+Items below threshold are : 
+Wheat Flour
+Sugar
+Salt
+Milk
+Bread
+Tomatoes
+Onions
+Potatoes
+
+Test 2: Threshold = 25
+Items below threshold are : 
+Salt
+Potatoes
+
+Test 3: Threshold = 20
+
+Test 4: Threshold = 100
+Items below threshold are : 
+Rice
+Wheat Flour
+Sugar
+Salt
+Milk
+Eggs
+Bread
+Tomatoes
+Onions
+Potatoes
+Bananas
+
+Test 5: Threshold = 300
+Items below threshold are : 
+Rice
+Wheat Flour
+Sugar
+Salt
+Milk
+Eggs
+Bread
+Butter
+Cheese
+Tomatoes
+Onions
+Potatoes
+Apples
+Bananas
+Chicken
+
+Test 6: Threshold = 10
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:278: error: ';' expected
+            System.out.println("Your total bill after 10% discount is: $" + totalBill)
+                                                                                      ^
+1 error
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:50: error: incompatible types: possible lossy conversion from double to float
+                        applyDiscount(totalBill);
+                                      ^
+src/GroceryShopping.java:278: error: cannot find symbol
+            System.out.println("Your total bill after 10% discount is: $" + totalBill);
+                                                                            ^
+  symbol:   variable totalBill
+  location: class GroceryShopping
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:278: error: cannot find symbol
+            System.out.println("Your total bill after 10% discount is: $" + totalBill);
+                                                                            ^
+  symbol:   variable totalBill
+  location: class GroceryShopping
+1 error
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+theia@theia-aparnamogili:/home/project/final_proj$ java GroceryShopping
+Enter the name of the item (or type 'finish' to end shopping):
+Rice
+Enter the quantity of Rice:
+1
+Added 1 x Rice to the bill. Current total: $55.5
+Enter the name of the item (or type 'finish' to end shopping):
+Eggs
+Enter the quantity of Eggs:
+4
+Added 4 x Eggs to the bill. Current total: $295.5
+Enter the name of the item (or type 'finish' to end shopping):
+Potato
+Item 'Potato' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+potato
+Item 'potato' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+potatoes
+Item 'potatoes' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+Potatoes
+Enter the quantity of Potatoes:
+6
+Added 6 x Potatoes to the bill. Current total: $427.5
+Enter the name of the item (or type 'finish' to end shopping):
+Tomato
+Item 'Tomato' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+Tomatoes                    
+Enter the quantity of Tomatoes:
+3
+Added 3 x Tomatoes to the bill. Current total: $517.5
+Enter the name of the item (or type 'finish' to end shopping):
+Chicken
+Enter the quantity of Chicken:
+2
+Added 2 x Chicken to the bill. Current total: $1017.5
+Enter the name of the item (or type 'finish' to end shopping):
+finish
+Your total bill is: $1017.5
+Your total bill after 10% discount is: $ 915.75
+Thank you for shopping with us!
+exit
+Thank you for using the shopping cart. Goodbye!
+Item 'Capsicum' not found. Please try again.
+Average price of groceries:70.26667
+float array of prices cannot be empty.
+Average price empty array:0.0
+float array of prices cannot be empty.
+Average price empty array:0.0
+float array of prices has to be initialized
+Average price null object:0.0
+Average price of : {10.5f, 20.3f, 30.7f}t:20.5
+Test 1: Threshold = 50
+Items below threshold are : 
+Wheat Flour
+Sugar
+Salt
+Milk
+Bread
+Tomatoes
+Onions
+Potatoes
+
+Test 2: Threshold = 25
+Items below threshold are : 
+Salt
+Potatoes
+
+Test 3: Threshold = 20
+
+Test 4: Threshold = 100
+Items below threshold are : 
+Rice
+Wheat Flour
+Sugar
+Salt
+Milk
+Eggs
+Bread
+Tomatoes
+Onions
+Potatoes
+Bananas
+
+Test 5: Threshold = 300
+Items below threshold are : 
+Rice
+Wheat Flour
+Sugar
+Salt
+Milk
+Eggs
+Bread
+Butter
+Cheese
+Tomatoes
+Onions
+Potatoes
+Apples
+Bananas
+Chicken
+
+Test 6: Threshold = 10
+theia@theia-aparnamogili:/home/project/final_proj$ touch /src/OutOfStock.java
+touch: cannot touch '/src/OutOfStock.java': No such file or directory
+theia@theia-aparnamogili:/home/project/final_proj$ touch src/OutOfSt
+ock.java
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/OutOfStock.java 
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:68: error: bad operand types for binary operator '<'
+                        if(stock<0){
+                                ^
+  first type:  int[]
+  second type: int
+1 error
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+theia@theia-aparnamogili:/home/project/final_proj$ java GroceryShopping
+Enter the name of the item (or type 'finish' to end shopping):
+Rice
+Enter the quantity of Rice:
+5
+Remaining stock of Rice: 5
+Added 5 x Rice to the bill. Current total: $277.5
+Enter the name of the item (or type 'finish' to end shopping):
+Eggs
+Enter the quantity of Eggs:
+25
+Remaining stock of Eggs: 75
+Added 25 x Eggs to the bill. Current total: $1777.5
+Enter the name of the item (or type 'finish' to end shopping):
+Onion
+Item 'Onion' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+50
+Item '50' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+Onions
+Enter the quantity of Onions:
+50
+Remaining stock of Onions: 10
+Added 50 x Onions to the bill. Current total: $3027.5
+Enter the name of the item (or type 'finish' to end shopping):
+Tomatoes
+Enter the quantity of Tomatoes:
+50
+Item Tomatoes is Out of Stock.Currently Available quantity : 45
+45
+Enter the name of the item (or type 'finish' to end shopping):
+Tomatoes
+Enter the quantity of Tomatoes:
+45
+Remaining stock of Tomatoes: 0
+Added 45 x Tomatoes to the bill. Current total: $4377.5
+Enter the name of the item (or type 'finish' to end shopping):
+finish
+Your total bill is: $4377.5
+Your total bill after 10% discount is: $ 3939.75
+Thank you for shopping with us!
+exit
+Thank you for using the shopping cart. Goodbye!
+Item 'Capsicum' not found. Please try again.
+Average price of groceries:70.26667
+float array of prices cannot be empty.
+Average price empty array:0.0
+float array of prices cannot be empty.
+Average price empty array:0.0
+float array of prices has to be initialized
+Average price null object:0.0
+Average price of : {10.5f, 20.3f, 30.7f}t:20.5
+Test 1: Threshold = 50
+Items below threshold are : 
+Wheat Flour
+Sugar
+Salt
+Milk
+Bread
+Tomatoes
+Onions
+Potatoes
+
+Test 2: Threshold = 25
+Items below threshold are : 
+Salt
+Potatoes
+
+Test 3: Threshold = 20
+
+Test 4: Threshold = 100
+Items below threshold are : 
+Rice
+Wheat Flour
+Sugar
+Salt
+Milk
+Eggs
+Bread
+Tomatoes
+Onions
+Potatoes
+Bananas
+
+Test 5: Threshold = 300
+Items below threshold are : 
+Rice
+Wheat Flour
+Sugar
+Salt
+Milk
+Eggs
+Bread
+Butter
+Cheese
+Tomatoes
+Onions
+Potatoes
+Apples
+Bananas
+Chicken
+
+Test 6: Threshold = 10
+theia@theia-aparnamogili:/home/project/final_proj$ 

@@ -1,0 +1,173 @@
+theia@theia-aparnamogili:/home/project$ mkdir final_proj
+theia@theia-aparnamogili:/home/project$ mkdir -p final_proj/src
+theia@theia-aparnamogili:/home/project$ mkdir -p final_proj/classes
+theia@theia-aparnamogili:/home/project$ mkdir -p final_proj/test
+theia@theia-aparnamogili:/home/project$ cd final_proj
+theia@theia-aparnamogili:/home/project/final_proj$ 
+touch /home/project/final_proj/src/GroceryShopping.java
+theia@theia-aparnamogili:/home/project/final_proj$ touch /home/project/final_proj/src/ItemNotFoundException
+theia@theia-aparnamogili:/home/project/final_proj$ t
+ouch /home/project/final_proj/src/ItemNotFoundException.java
+theia@theia-aparnamogili:/home/project/final_proj$ java -d classes src/ItemNotFoundException.java 
+classes not found
+theia@theia-aparnamogili:/home/project/final_proj$ theia@theia-aparnamogili:/home/project/final_proj$ theia@theia-aparnamogili:/home/project/final_proj$ theia@theia-aparnamogili:/home/project/final_proj$ j
+avac -d classes src/ItemNotFoundException.java 
+theia@theia-aparnamogili:/home/project/final_proj$ 
+javac -d classes src/GroceryShopping.java       
+src/GroceryShopping.java:65: error: ';' expected
+                throw new ItemNotFoundException("Item '" + inputItem + "' not found. Please try again.")
+                                                                                                        ^
+1 error
+theia@theia-aparnamogili:/home/project/final_proj$ 
+javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:52: error: cannot find symbol
+            int itemIndex = groceries.indexOf(inputItem);
+                                     ^
+  symbol:   method indexOf(String)
+  location: variable groceries of type String[]
+src/GroceryShopping.java:55: error: cannot find symbol
+                System.out.println("Enter the quantity of " + item[itemIndex] + ":");
+                                                              ^
+  symbol:   variable item
+  location: class GroceryShopping
+src/GroceryShopping.java:56: error: cannot find symbol
+                int quantity = scanner.nextInt();
+                               ^
+  symbol:   variable scanner
+  location: class GroceryShopping
+src/GroceryShopping.java:57: error: cannot find symbol
+                scanner.nextLine(); // Consume the newline character
+                ^
+  symbol:   variable scanner
+  location: class GroceryShopping
+src/GroceryShopping.java:59: error: cannot find symbol
+                float itemCost = price[itemIndex] * quantity;
+                                 ^
+  symbol:   variable price
+  location: class GroceryShopping
+src/GroceryShopping.java:61: error: cannot find symbol
+                System.out.println("Added " + quantity + " x " + item[itemIndex] + " to the bill. Current total: $" + totalBill);
+                                                                 ^
+  symbol:   variable item
+  location: class GroceryShopping
+src/GroceryShopping.java:65: error: cannot find symbol
+                throw new ItemNotFoundException("Item '" + inputItem + "' not found. Please try again.");
+                          ^
+  symbol:   class ItemNotFoundException
+  location: class GroceryShopping
+7 errors
+theia@theia-aparnamogili:/home/project/final_proj$ 
+javac -d classes src/ItemNotFoundException.java 
+theia@theia-aparnamogili:/home/project/final_proj$ 
+echo classpath
+classpath
+theia@theia-aparnamogili:/home/project/final_proj$ 
+echo $CLASSPATH
+/home/theia/dsdriver/tools/clpplus.jar:/home/theia/dsdriver/tools/jline-0.9.93.jar:/home/theia/dsdriver/tools/antlr-3.3-java.jar:/home/theia/dsdriver/java/db2jcc4.jar:/home/theia/dsdriver/java/sqlj4.zip:
+theia@theia-aparnamogili:/home/project/final_proj$ 
+CLASSPATH=CLASSPATH:/home/project/final_proj/classes/
+theia@theia-aparnamogili:/home/project/final_proj$ 
+echo $CLASSPATH
+CLASSPATH:/home/project/final_proj/classes/
+theia@theia-aparnamogili:/home/project/final_proj$ 
+CLASSPATH=/home/theia/dsdriver/tools/clpplus.jar:/home/theia/dsdriver/tools/jline-0.9.93.jar:/home/theia/dsdriver/tools/antlr-3.3-java.jar:/home/theia/dsdriver/java/db2jcc4.jar:/home/theia/dsdriver/java/sqlj4.zip:/home/project/final_proj/classes/
+theia@theia-aparnamogili:/home/project/final_proj$ 
+echo $CLASSPATH
+/home/theia/dsdriver/tools/clpplus.jar:/home/theia/dsdriver/tools/jline-0.9.93.jar:/home/theia/dsdriver/tools/antlr-3.3-java.jar:/home/theia/dsdriver/java/db2jcc4.jar:/home/theia/dsdriver/java/sqlj4.zip:/home/project/final_proj/classes/
+theia@theia-aparnamogili:/home/project/final_proj$ 
+javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:52: error: cannot find symbol
+            int itemIndex = groceries.indexOf(inputItem);
+                                     ^
+  symbol:   method indexOf(String)
+  location: variable groceries of type String[]
+src/GroceryShopping.java:55: error: cannot find symbol
+                System.out.println("Enter the quantity of " + item[itemIndex] + ":");
+                                                              ^
+  symbol:   variable item
+  location: class GroceryShopping
+src/GroceryShopping.java:56: error: cannot find symbol
+                int quantity = scanner.nextInt();
+                               ^
+  symbol:   variable scanner
+  location: class GroceryShopping
+src/GroceryShopping.java:57: error: cannot find symbol
+                scanner.nextLine(); // Consume the newline character
+                ^
+  symbol:   variable scanner
+  location: class GroceryShopping
+src/GroceryShopping.java:59: error: cannot find symbol
+                float itemCost = price[itemIndex] * quantity;
+                                 ^
+  symbol:   variable price
+  location: class GroceryShopping
+src/GroceryShopping.java:61: error: cannot find symbol
+                System.out.println("Added " + quantity + " x " + item[itemIndex] + " to the bill. Current total: $" + totalBill);
+                                                                 ^
+  symbol:   variable item
+  location: class GroceryShopping
+6 errors
+theia@theia-aparnamogili:/home/project/final_proj$ 
+javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:55: error: cannot find symbol
+                System.out.println("Enter the quantity of " + item[itemIndex] + ":");
+                                                              ^
+  symbol:   variable item
+  location: class GroceryShopping
+1 error
+theia@theia-aparnamogili:/home/project/final_proj$ 
+javac -d classes src/GroceryShopping.java 
+src/GroceryShopping.java:65: error: unreported exception ItemNotFoundException; must be caught or declared to be thrown
+                throw new ItemNotFoundException("Item '" + inputItem + "' not found. Please try again.");
+                ^
+1 error
+theia@theia-aparnamogili:/home/project/final_proj$ javac -d classes src/GroceryShopping.java 
+theia@theia-aparnamogili:/home/project/final_proj$ java GroceryShopping 
+Enter the name of the item (or type 'finish' to end shopping):
+Rice
+Enter the quantity of Rice:
+2
+Added 2 x Rice to the bill. Current total: $111.0
+Enter the name of the item (or type 'finish' to end shopping):
+Eggs
+Enter the quantity of Eggs:
+4
+Added 4 x Eggs to the bill. Current total: $351.0
+Enter the name of the item (or type 'finish' to end shopping):
+Onions
+Enter the quantity of Onions:
+2
+Added 2 x Onions to the bill. Current total: $401.0
+Enter the name of the item (or type 'finish' to end shopping):
+Capsicum
+Item 'Capsicum' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+Chicken
+Enter the quantity of Chicken:
+1
+Added 1 x Chicken to the bill. Current total: $651.0
+Enter the name of the item (or type 'finish' to end shopping):
+Salt
+Enter the quantity of Salt:
+1
+Added 1 x Salt to the bill. Current total: $671.0
+Enter the name of the item (or type 'finish' to end shopping):
+Tomatoes
+Enter the quantity of Tomatoes:
+2
+Added 2 x Tomatoes to the bill. Current total: $731.0
+Enter the name of the item (or type 'finish' to end shopping):
+finisj
+Item 'finisj' not found. Please try again.
+Enter the name of the item (or type 'finish' to end shopping):
+finish
+Your total bill is: $731.0
+Thank you for shopping with us!
+
+Enter the name of the item (or type 'finish' to end shopping):
+finish
+Your total bill is: $731.0
+Thank you for shopping with us!
+exit
+Thank you for using the shopping cart. Goodbye!
+theia@theia-aparnamogili:/home/project/final_proj$ 
