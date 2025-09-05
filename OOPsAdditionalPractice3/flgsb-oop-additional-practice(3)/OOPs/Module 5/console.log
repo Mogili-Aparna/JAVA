@@ -1,0 +1,1996 @@
+Enter the format you would like to print the time in
+H for Hour of day (0-23), HH for Zero-padded hour of day (00-23), 
+h for Hour of am/pm (1-12), hh for Zero-padded hour of am/pm (01-12) 
+m for Minute of hour (0-59)
+mm for Zero-padded minute of hour (00-59)
+s for Second of minute (0-59), ss for Zero-padded second of minute (00-59)
+hh:mm:ss
+The time is 09:55:58
+2025-08-23T21:56:12.038567707
+
+
+Enter the format you would like to print the date and time in
+
+yyyy, dd MMM hh:mm
+The date and time is 2025, 23 Aug 09:56
+theia@theia-aparnamogili:/home/project/my_datetime_p
+ateTimePrinter.javaoject/my_datetime_proj/src/ZonedDa
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ javac -d classes src/ZonedDateTimePrinter.java
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ java ZonedDateTimePrinter
+
+Default Format 2025-08-23T21:57:28.466159681-04:00[America/New_York]
+
+
+Enter the format you would like to print the time in
+dd for date, 
+M for month, MM for zero-padded month, MMM for abreviated month, MMMM for full name, 
+yy or yyyy for year
+H for Hour of day (0-23), HH for Zero-padded hour of day (00-23), 
+h for Hour of am/pm (1-12), hh for Zero-padded hour of am/pm (01-12) 
+m for Minute of hour (0-59)
+mm for Zero-padded minute of hour (00-59)
+s for Second of minute (0-59), ss for Zero-padded second of minute (00-59)
+z for Time zone (for example, PDT, EST), zzz: Time zone (for example, Pacific Daylight Time, Eastern Standard Time)Z for Time zone offset (for example, +0800, -0500)
+dd MMM yy hh:mm:ss zzz
+The date and time is 23 Aug 25 09:57:28 EDT
+theia@theia-aparnamogili:/home/project/my_datetime_p
+meOperations.javaproject/my_datetime_proj/src/DateTim
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ javac -d classes src/DateTimeOperations.java
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ java DateTimeOperations
+
+Default Format: 2025-08-23T22:02:16.666299525-04:00[America/New_York]
+
+Press 1 for adding to or deleting from the current date/time,
+Press 2 for changing the timezone,
+Any other key to exit
+1
+Enter which unit of time you want to add/delete:
+d - days, M - months, y - years, h - hours, m - minutes, s - seconds, w - weeks
+4
+Enter the quantity to change (for example, 3):
+^Ctheia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ java DateTimeOperations
+
+Default Format: 2025-08-23T22:02:49.044470008-04:00[America/New_York]
+
+Press 1 for adding to or deleting from the current date/time,
+Press 2 for changing the timezone,
+Any other key to exit
+1
+Enter which unit of time you want to add/delete:
+d - days, M - months, y - years, h - hours, m - minutes, s - seconds, w - weeks
+y
+Enter the quantity to change (for example, 3):
+4
+
+Press 'a' to add, 'd' to delete,
+Any other key to go back to the main menu
+d
+
+
+Enter the format you would like to print the date and time in:
+dd MMM yyyy hh:mm:ss a
+The date and time is: 23 Aug 2021 10:02:49 PM
+
+Press 1 for adding to or deleting from the current date/time,
+Press 2 for changing the timezone,
+Any other key to exit
+2
+Check the following Zone options:
+Asia/Aden
+America/Cuiaba
+Etc/GMT+9
+Etc/GMT+8
+Africa/Nairobi
+America/Marigot
+Asia/Aqtau
+Pacific/Kwajalein
+America/El_Salvador
+Asia/Pontianak
+Africa/Cairo
+Pacific/Pago_Pago
+Africa/Mbabane
+Asia/Kuching
+Pacific/Honolulu
+Pacific/Rarotonga
+America/Guatemala
+Australia/Hobart
+Europe/London
+America/Belize
+America/Panama
+Asia/Chungking
+America/Managua
+America/Indiana/Petersburg
+Asia/Yerevan
+Europe/Brussels
+GMT
+Europe/Warsaw
+America/Chicago
+Asia/Kashgar
+Chile/Continental
+Pacific/Yap
+CET
+Etc/GMT-1
+Etc/GMT-0
+Europe/Jersey
+America/Tegucigalpa
+Etc/GMT-5
+Europe/Istanbul
+America/Eirunepe
+Etc/GMT-4
+America/Miquelon
+Etc/GMT-3
+Europe/Luxembourg
+Etc/GMT-2
+Etc/GMT-9
+America/Argentina/Catamarca
+Etc/GMT-8
+Etc/GMT-7
+Etc/GMT-6
+Europe/Zaporozhye
+Canada/Yukon
+Canada/Atlantic
+Atlantic/St_Helena
+Australia/Tasmania
+Libya
+Europe/Guernsey
+America/Grand_Turk
+Asia/Samarkand
+America/Argentina/Cordoba
+Asia/Phnom_Penh
+Africa/Kigali
+Asia/Almaty
+US/Alaska
+Asia/Dubai
+Europe/Isle_of_Man
+America/Araguaina
+Cuba
+Asia/Novosibirsk
+America/Argentina/Salta
+Etc/GMT+3
+Africa/Tunis
+Etc/GMT+2
+Etc/GMT+1
+Pacific/Fakaofo
+Africa/Tripoli
+Etc/GMT+0
+Israel
+Africa/Banjul
+Etc/GMT+7
+Indian/Comoro
+Etc/GMT+6
+Etc/GMT+5
+Etc/GMT+4
+Pacific/Port_Moresby
+US/Arizona
+Antarctica/Syowa
+Indian/Reunion
+Pacific/Palau
+Europe/Kaliningrad
+America/Montevideo
+Africa/Windhoek
+Asia/Karachi
+Africa/Mogadishu
+Australia/Perth
+Brazil/East
+Etc/GMT
+Asia/Chita
+Pacific/Easter
+Antarctica/Davis
+Antarctica/McMurdo
+Asia/Macao
+America/Manaus
+Africa/Freetown
+Europe/Bucharest
+Asia/Tomsk
+America/Argentina/Mendoza
+Asia/Macau
+Europe/Malta
+Mexico/BajaSur
+Pacific/Tahiti
+Africa/Asmera
+Europe/Busingen
+America/Argentina/Rio_Gallegos
+Africa/Malabo
+Europe/Skopje
+America/Catamarca
+America/Godthab
+Europe/Sarajevo
+Australia/ACT
+GB-Eire
+Africa/Lagos
+America/Cordoba
+Europe/Rome
+Asia/Dacca
+Indian/Mauritius
+Pacific/Samoa
+America/Regina
+America/Fort_Wayne
+America/Dawson_Creek
+Africa/Algiers
+Europe/Mariehamn
+America/St_Johns
+America/St_Thomas
+Europe/Zurich
+America/Anguilla
+Asia/Dili
+America/Denver
+Africa/Bamako
+Europe/Saratov
+GB
+Mexico/General
+Pacific/Wallis
+Europe/Gibraltar
+Africa/Conakry
+Africa/Lubumbashi
+Asia/Istanbul
+America/Havana
+NZ-CHAT
+Asia/Choibalsan
+America/Porto_Acre
+Asia/Omsk
+Europe/Vaduz
+US/Michigan
+Asia/Dhaka
+America/Barbados
+Europe/Tiraspol
+Atlantic/Cape_Verde
+Asia/Yekaterinburg
+America/Louisville
+Pacific/Johnston
+Pacific/Chatham
+Europe/Ljubljana
+America/Sao_Paulo
+Asia/Jayapura
+America/Curacao
+Asia/Dushanbe
+America/Guyana
+America/Guayaquil
+America/Martinique
+Portugal
+Europe/Berlin
+Europe/Moscow
+Europe/Chisinau
+America/Puerto_Rico
+America/Rankin_Inlet
+Pacific/Ponape
+Europe/Stockholm
+Europe/Budapest
+America/Argentina/Jujuy
+Australia/Eucla
+Asia/Shanghai
+Universal
+Europe/Zagreb
+America/Port_of_Spain
+Europe/Helsinki
+Asia/Beirut
+Asia/Tel_Aviv
+Pacific/Bougainville
+US/Central
+Africa/Sao_Tome
+Indian/Chagos
+America/Cayenne
+Asia/Yakutsk
+Pacific/Galapagos
+Australia/North
+Europe/Paris
+Africa/Ndjamena
+Pacific/Fiji
+America/Rainy_River
+Indian/Maldives
+Australia/Yancowinna
+SystemV/AST4
+Asia/Oral
+America/Yellowknife
+Pacific/Enderbury
+America/Juneau
+Australia/Victoria
+America/Indiana/Vevay
+Asia/Tashkent
+Asia/Jakarta
+Africa/Ceuta
+Asia/Barnaul
+America/Recife
+America/Buenos_Aires
+America/Noronha
+America/Swift_Current
+Australia/Adelaide
+America/Metlakatla
+Africa/Djibouti
+America/Paramaribo
+Asia/Qostanay
+Europe/Simferopol
+Europe/Sofia
+Africa/Nouakchott
+Europe/Prague
+America/Indiana/Vincennes
+Antarctica/Mawson
+America/Kralendijk
+Antarctica/Troll
+Europe/Samara
+Indian/Christmas
+America/Antigua
+Pacific/Gambier
+America/Indianapolis
+America/Inuvik
+America/Iqaluit
+Pacific/Funafuti
+UTC
+Antarctica/Macquarie
+Canada/Pacific
+America/Moncton
+Africa/Gaborone
+Pacific/Chuuk
+Asia/Pyongyang
+America/St_Vincent
+Asia/Gaza
+Etc/Universal
+PST8PDT
+Atlantic/Faeroe
+Asia/Qyzylorda
+Canada/Newfoundland
+America/Kentucky/Louisville
+America/Yakutat
+America/Ciudad_Juarez
+Asia/Ho_Chi_Minh
+Antarctica/Casey
+Europe/Copenhagen
+Africa/Asmara
+Atlantic/Azores
+Europe/Vienna
+ROK
+Pacific/Pitcairn
+America/Mazatlan
+Australia/Queensland
+Pacific/Nauru
+Europe/Tirane
+Asia/Kolkata
+SystemV/MST7
+Australia/Canberra
+MET
+Australia/Broken_Hill
+Europe/Riga
+America/Dominica
+Africa/Abidjan
+America/Mendoza
+America/Santarem
+Kwajalein
+America/Asuncion
+Asia/Ulan_Bator
+NZ
+America/Boise
+Australia/Currie
+EST5EDT
+Pacific/Guam
+Pacific/Wake
+Atlantic/Bermuda
+America/Costa_Rica
+America/Dawson
+Asia/Chongqing
+Eire
+Europe/Amsterdam
+America/Indiana/Knox
+America/North_Dakota/Beulah
+Africa/Accra
+Atlantic/Faroe
+Mexico/BajaNorte
+America/Maceio
+Etc/UCT
+Pacific/Apia
+GMT0
+America/Atka
+Pacific/Niue
+Australia/Lord_Howe
+Europe/Dublin
+Pacific/Truk
+MST7MDT
+America/Monterrey
+America/Nassau
+America/Jamaica
+Asia/Bishkek
+America/Atikokan
+Atlantic/Stanley
+Australia/NSW
+US/Hawaii
+SystemV/CST6
+Indian/Mahe
+Asia/Aqtobe
+America/Sitka
+Asia/Vladivostok
+Africa/Libreville
+Africa/Maputo
+Zulu
+America/Kentucky/Monticello
+Africa/El_Aaiun
+Africa/Ouagadougou
+America/Coral_Harbour
+Pacific/Marquesas
+Brazil/West
+America/Aruba
+America/North_Dakota/Center
+America/Cayman
+Asia/Ulaanbaatar
+Asia/Baghdad
+Europe/San_Marino
+America/Indiana/Tell_City
+America/Tijuana
+Pacific/Saipan
+SystemV/YST9
+Africa/Douala
+America/Chihuahua
+America/Ojinaga
+Asia/Hovd
+America/Anchorage
+Chile/EasterIsland
+America/Halifax
+Antarctica/Rothera
+America/Indiana/Indianapolis
+US/Mountain
+Asia/Damascus
+America/Argentina/San_Luis
+America/Santiago
+Asia/Baku
+America/Argentina/Ushuaia
+Atlantic/Reykjavik
+Africa/Brazzaville
+Africa/Porto-Novo
+America/La_Paz
+Antarctica/DumontDUrville
+Asia/Taipei
+Antarctica/South_Pole
+Asia/Manila
+Asia/Bangkok
+Africa/Dar_es_Salaam
+Poland
+Atlantic/Madeira
+Antarctica/Palmer
+America/Thunder_Bay
+Africa/Addis_Ababa
+Asia/Yangon
+Europe/Uzhgorod
+Brazil/DeNoronha
+Asia/Ashkhabad
+Etc/Zulu
+America/Indiana/Marengo
+America/Creston
+America/Punta_Arenas
+America/Mexico_City
+Antarctica/Vostok
+Asia/Jerusalem
+Europe/Andorra
+US/Samoa
+PRC
+Asia/Vientiane
+Pacific/Kiritimati
+America/Matamoros
+America/Blanc-Sablon
+Asia/Riyadh
+Iceland
+Pacific/Pohnpei
+Asia/Ujung_Pandang
+Atlantic/South_Georgia
+Europe/Lisbon
+Asia/Harbin
+Europe/Oslo
+Asia/Novokuznetsk
+CST6CDT
+Atlantic/Canary
+America/Knox_IN
+Asia/Kuwait
+SystemV/HST10
+Pacific/Efate
+Africa/Lome
+America/Bogota
+America/Menominee
+America/Adak
+Pacific/Norfolk
+Europe/Kirov
+America/Resolute
+Pacific/Kanton
+Pacific/Tarawa
+Africa/Kampala
+Asia/Krasnoyarsk
+Greenwich
+SystemV/EST5
+America/Edmonton
+Europe/Podgorica
+Australia/South
+Canada/Central
+Africa/Bujumbura
+America/Santo_Domingo
+US/Eastern
+Europe/Minsk
+Pacific/Auckland
+Africa/Casablanca
+America/Glace_Bay
+Canada/Eastern
+Asia/Qatar
+Europe/Kiev
+Singapore
+Asia/Magadan
+SystemV/PST8
+America/Port-au-Prince
+Europe/Belfast
+America/St_Barthelemy
+Asia/Ashgabat
+Africa/Luanda
+America/Nipigon
+Atlantic/Jan_Mayen
+Brazil/Acre
+Asia/Muscat
+Asia/Bahrain
+Europe/Vilnius
+America/Fortaleza
+Etc/GMT0
+US/East-Indiana
+America/Hermosillo
+America/Cancun
+Africa/Maseru
+Pacific/Kosrae
+Africa/Kinshasa
+Asia/Kathmandu
+Asia/Seoul
+Australia/Sydney
+America/Lima
+Australia/LHI
+America/St_Lucia
+Europe/Madrid
+America/Bahia_Banderas
+America/Montserrat
+Asia/Brunei
+America/Santa_Isabel
+Canada/Mountain
+America/Cambridge_Bay
+Asia/Colombo
+Australia/West
+Indian/Antananarivo
+Australia/Brisbane
+Indian/Mayotte
+US/Indiana-Starke
+Asia/Urumqi
+US/Aleutian
+Europe/Volgograd
+America/Lower_Princes
+America/Vancouver
+Africa/Blantyre
+America/Rio_Branco
+America/Danmarkshavn
+America/Detroit
+America/Thule
+Africa/Lusaka
+Asia/Hong_Kong
+Iran
+America/Argentina/La_Rioja
+Africa/Dakar
+SystemV/CST6CDT
+America/Tortola
+America/Porto_Velho
+Asia/Sakhalin
+Etc/GMT+10
+America/Scoresbysund
+Asia/Kamchatka
+Asia/Thimbu
+Africa/Harare
+Etc/GMT+12
+Etc/GMT+11
+Navajo
+America/Nome
+Europe/Tallinn
+Turkey
+Africa/Khartoum
+Africa/Johannesburg
+Africa/Bangui
+Europe/Belgrade
+Jamaica
+Africa/Bissau
+Asia/Tehran
+WET
+Europe/Astrakhan
+Africa/Juba
+America/Campo_Grande
+America/Belem
+Etc/Greenwich
+Asia/Saigon
+America/Ensenada
+Pacific/Midway
+America/Jujuy
+Africa/Timbuktu
+America/Bahia
+America/Goose_Bay
+America/Virgin
+America/Pangnirtung
+Asia/Katmandu
+America/Phoenix
+Africa/Niamey
+America/Whitehorse
+Pacific/Noumea
+Asia/Tbilisi
+Europe/Kyiv
+America/Montreal
+Asia/Makassar
+America/Argentina/San_Juan
+Hongkong
+UCT
+Asia/Nicosia
+America/Indiana/Winamac
+SystemV/MST7MDT
+America/Argentina/ComodRivadavia
+America/Boa_Vista
+America/Grenada
+Asia/Atyrau
+Australia/Darwin
+Asia/Khandyga
+Asia/Kuala_Lumpur
+Asia/Famagusta
+Asia/Thimphu
+Asia/Rangoon
+Europe/Bratislava
+Asia/Calcutta
+America/Argentina/Tucuman
+Asia/Kabul
+Indian/Cocos
+Japan
+Pacific/Tongatapu
+America/New_York
+Etc/GMT-12
+Etc/GMT-11
+America/Nuuk
+Etc/GMT-10
+SystemV/YST9YDT
+Europe/Ulyanovsk
+Etc/GMT-14
+Etc/GMT-13
+W-SU
+America/Merida
+EET
+America/Rosario
+Canada/Saskatchewan
+America/St_Kitts
+Arctic/Longyearbyen
+America/Fort_Nelson
+America/Caracas
+America/Guadeloupe
+Asia/Hebron
+Indian/Kerguelen
+SystemV/PST8PDT
+Africa/Monrovia
+Asia/Ust-Nera
+Egypt
+Asia/Srednekolymsk
+America/North_Dakota/New_Salem
+Asia/Anadyr
+Australia/Melbourne
+Asia/Irkutsk
+America/Shiprock
+America/Winnipeg
+Europe/Vatican
+Asia/Amman
+Etc/UTC
+SystemV/AST4ADT
+Asia/Tokyo
+America/Toronto
+Asia/Singapore
+Australia/Lindeman
+America/Los_Angeles
+SystemV/EST5EDT
+Pacific/Majuro
+America/Argentina/Buenos_Aires
+Europe/Nicosia
+Pacific/Guadalcanal
+Europe/Athens
+US/Pacific
+Europe/Monaco
+
+
+Enter the time zone you want to get the current time for:
+Asia/Kolkata
+The date and time is: 24 Aug 2025 07:32:49 AM IST
+
+Press 1 for adding to or deleting from the current date/time,
+Press 2 for changing the timezone,
+Any other key to exit
+
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ mkdir my_datediff_proj
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ mkdir -p my_datediff_proj/src
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ mkdir -p my_datediff_proj/classes
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ mkdir -p my_datediff_proj/test
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ cd my_datediff_proj
+theia@theia-aparnamogili:/home/project/my_datetime_p
+f_proj/src/DateDiffCalculator.javaproject/my_datediff
+touch: cannot touch '/home/project/my_datediff_proj/src/DateDiffCalculator.java': No such file or directory
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj/my_datediff_proj$ javac -d classes src/DateDiffCalculator.java
+error: file not found: src/DateDiffCalculator.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+theia@theia-aparnamogili:/home/project/my_datetime_proj/my_datediff_
+sses$ export CLASSPATH=$CLASSPATH:/home/project/my_datediff_proj/clas
+theia@theia-aparnamogili:/home/project/my_datetime_proj/my_datediff_
+proj$ java DateDiffCalculator
+Error: Could not find or load main class DateDiffCalculator
+Caused by: java.lang.ClassNotFoundException: DateDiffCalculator
+theia@theia-aparnamogili:/home/project/my_datetime_proj/my_datediff_
+proj$ javac -d classes src/DateDiffCalculator.java
+error: file not found: src/DateDiffCalculator.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+theia@theia-aparnamogili:/home/project/my_datetime_proj/my_datediff_
+proj$ cd ../
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ cd ../
+theia@theia-aparnamogili:/home/project$ ls -la
+total 24
+drwxrwsrwx 5 root  users 4096 Aug 23 22:12 .
+drwxrwxr-x 1 root  root  4096 Mar 27 17:38 ..
+drwxr-sr-x 2 theia users 4096 Aug 23 21:51 .theia
+drwxr-sr-x 3 theia users 4096 Aug 23 22:12 my_datediff_proj
+drwxr-sr-x 6 theia users 4096 Aug 23 22:12 my_datetime_proj
+ff_proj/eia-aparnamogili:/home/project$ cd my_datedif
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ javac -d classes src/DateDiffCalculator.java
+theia@theia-aparnamogili:/home/project/my_datediff_p
+tediff_proj/classesTH=$CLASSPATH:/home/project/my_dat
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+
+The date is 23/08/2025
+Input the date in dd/MM/yyyy format
+25/10/2025
+
+The given date is 25/10/2025
+The difference is 2 months, 2 day(s)
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ javac -d classes src/DateDiffCalculator.java
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MM yy
+Input the date in dd MM yy format:
+02 Feb 25
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yy
+Input the date in dd MMM yy format:
+02 Feb 25
+Input another date in dd MMM yy format:
+25 Dec 25
+
+The given date is 02 Feb 25
+
+The other given date is 25 Dec 25
+The difference is 10 months, 23 day(s)
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ javac -d classes src/DateDiffCalculator.java
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yy HH:mm:ss Z
+Input the date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0930
+Input another date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 12:30:00 -1730
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yy HH:mm:ss Z
+Input the date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0930
+Input another date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 -1730
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yy HH:mm:ss Z
+Input the date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0930
+Input another date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 -1730
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yy HH:mm:ss Z
+Input the date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0930
+Input another date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0530
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yy HH:mm:ss Z
+Input the date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0930
+Input another date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0930
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd mm yyy
+Input the date in dd mm yyy format:
+23 07 25
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd mm yyyy
+Input the date in dd mm yyyy format:
+23 07 2025
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ javac -d classes src/DateDiffCalculator.java
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yyyy
+Input the date in dd MMM yyyy format:
+23 Feb 2025
+Input another date in dd MMM yyyy format:
+24 Dec 2025
+
+The given date is 23 Feb 2025
+
+The other given date is 24 Dec 2025
+The difference is 10 months, 1 day(s)
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yyyy
+Input the date in dd MMM yyyy format:
+14 Aug 2025
+Input another date in dd MMM yyyy format:
+23 Sep 2025
+
+The given date is 14 Aug 2025
+
+The other given date is 23 Sep 2025
+The difference is 1 months, 9 day(s)
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ git clone https://github.com/ibm-developer-skills-network/flgsb-oop-additional-practice.git
+Cloning into 'flgsb-oop-additional-practice'...
+remote: Enumerating objects: 251, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 251 (delta 7), reused 5 (delta 5), pack-reused 229 (from 1)
+Receiving objects: 100% (251/251), 82.20 KiB | 13.70 MiB/s, done.
+Resolving deltas: 100% (61/61), done.
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ cd ../
+theia@theia-aparnamogili:/home/project$ git clone https://github.com/ibm-developer-skills-network/flgsb-oop-additional-practice.git
+Cloning into 'flgsb-oop-additional-practice'...
+remote: Enumerating objects: 251, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 251 (delta 7), reused 5 (delta 5), pack-reused 229 (from 1)
+Receiving objects: 100% (251/251), 82.20 KiB | 16.44 MiB/s, done.
+Resolving deltas: 100% (61/61), done.
+theia@theia-aparnamogili:/home/project$ cd flgsb-oop-additional-practice/OOPs/Module\ 5
+theia@theia-aparnamogili:/home/project/flgsb-oop-add
+itional-practice/OOPs/Module 5$ ls
+'Calculate the difference between two dates'
+'Format a given Date and Time'
+theia@theia-aparnamogili:/home/project/flgsb-oop-add
+itional-practice/OOPs/Module 5$ cd Calculate\ the\ difference\ between\ two\ dates
+theia@theia-aparnamogili:/home/project/flgsb-oop-add
+itional-practice/OOPs/Module 5/Calculate the differe
+nce between two dates$ mkdir classes
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Calculate the diff
+erence between two dates$ javac -d classes/ TravelPlanner.java 
+TravelPlanner.java:91: error: cannot find symbol
+        && depadepartureDate.isBefore(holidayDate) 
+           ^
+  symbol:   variable depadepartureDate
+  location: class TravelPlanner
+TravelPlanner.java:101: error: cannot find symbol
+        return LocalDate.parse(dateStr, DATE_FORMATTER);
+                                        ^
+  symbol:   variable DATE_FORMATTER
+  location: class TravelPlanner
+2 errors
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Calculate the diff
+erence between two dates$ javac -d classes/ TravelPlanner.java 
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Calculate the diff
+erence between two dates$ java TravelPlanner.java 
+=== Travel Planner Application ===
+All dates should be entered in format dd/MM/yyyy
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 1
+Enter departure date (dd/MM/yyyy): 23/08/2025
+Enter return date (dd/MM/yyyy): 30/08/2025
+Trip duration: 7 days
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 2
+Enter departure date (dd/MM/yyyy): 23/08/2025
+Enter return date (dd/MM/yyyy): 30/08/2025
+Departure date should not be in the past
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 2
+Enter departure date (dd/MM/yyyy): 30/08/2025
+Enter return date (dd/MM/yyyy): 24/08/2025
+Return date should be after departure date
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 2
+Enter departure date (dd/MM/yyyy): 24/08/2025
+Enter return date (dd/MM/yyyy): 24/12/2025
+Trip should not be longer than 90 days
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 2
+Enter departure date (dd/MM/yyyy): 24/08/2025
+Enter return date (dd/MM/yyyy): 30/08/2025
+Travel dates are valid!
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 3
+Enter departure date (dd/MM/yyyy): 24/08/2025
+Enter return date (dd/MM/yyyy): 30/08/2025
+check-in : 24/08/2025 & Check-out : 30/08/2025
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 4
+Enter departure date (dd/MM/yyyy): 24/08/2025
+Enter return date (dd/MM/yyyy): 30/08/2025
+Enter holiday date (dd/MM/yyyy): 27/08/2025
+Your trip overlaps with the holiday!
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 4   
+Enter departure date (dd/MM/yyyy): 24/08/2025
+Enter return date (dd/MM/yyyy): 30/08/2025
+Enter holiday date (dd/MM/yyyy): 31/09/2025
+Your trip does not overlap with the holiday.
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 5
+Thank you for using Travel Planner!
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Calculate the diff
+erence between two dates$ 
+America/Rainy_River
+Indian/Maldives
+Australia/Yancowinna
+SystemV/AST4
+Asia/Oral
+America/Yellowknife
+Pacific/Enderbury
+America/Juneau
+Australia/Victoria
+America/Indiana/Vevay
+Asia/Tashkent
+Asia/Jakarta
+Africa/Ceuta
+Asia/Barnaul
+America/Recife
+America/Buenos_Aires
+America/Noronha
+America/Swift_Current
+Australia/Adelaide
+America/Metlakatla
+Africa/Djibouti
+America/Paramaribo
+Asia/Qostanay
+Europe/Simferopol
+Europe/Sofia
+Africa/Nouakchott
+Europe/Prague
+America/Indiana/Vincennes
+Antarctica/Mawson
+America/Kralendijk
+Antarctica/Troll
+Europe/Samara
+Indian/Christmas
+America/Antigua
+Pacific/Gambier
+America/Indianapolis
+America/Inuvik
+America/Iqaluit
+Pacific/Funafuti
+UTC
+Antarctica/Macquarie
+Canada/Pacific
+America/Moncton
+Africa/Gaborone
+Pacific/Chuuk
+Asia/Pyongyang
+America/St_Vincent
+Asia/Gaza
+Etc/Universal
+PST8PDT
+Atlantic/Faeroe
+Asia/Qyzylorda
+Canada/Newfoundland
+America/Kentucky/Louisville
+America/Yakutat
+America/Ciudad_Juarez
+Asia/Ho_Chi_Minh
+Antarctica/Casey
+Europe/Copenhagen
+Africa/Asmara
+Atlantic/Azores
+Europe/Vienna
+ROK
+Pacific/Pitcairn
+America/Mazatlan
+Australia/Queensland
+Pacific/Nauru
+Europe/Tirane
+Asia/Kolkata
+SystemV/MST7
+Australia/Canberra
+MET
+Australia/Broken_Hill
+Europe/Riga
+America/Dominica
+Africa/Abidjan
+America/Mendoza
+America/Santarem
+Kwajalein
+America/Asuncion
+Asia/Ulan_Bator
+NZ
+America/Boise
+Australia/Currie
+EST5EDT
+Pacific/Guam
+Pacific/Wake
+Atlantic/Bermuda
+America/Costa_Rica
+America/Dawson
+Asia/Chongqing
+Eire
+Europe/Amsterdam
+America/Indiana/Knox
+America/North_Dakota/Beulah
+Africa/Accra
+Atlantic/Faroe
+Mexico/BajaNorte
+America/Maceio
+Etc/UCT
+Pacific/Apia
+GMT0
+America/Atka
+Pacific/Niue
+Australia/Lord_Howe
+Europe/Dublin
+Pacific/Truk
+MST7MDT
+America/Monterrey
+America/Nassau
+America/Jamaica
+Asia/Bishkek
+America/Atikokan
+Atlantic/Stanley
+Australia/NSW
+US/Hawaii
+SystemV/CST6
+Indian/Mahe
+Asia/Aqtobe
+America/Sitka
+Asia/Vladivostok
+Africa/Libreville
+Africa/Maputo
+Zulu
+America/Kentucky/Monticello
+Africa/El_Aaiun
+Africa/Ouagadougou
+America/Coral_Harbour
+Pacific/Marquesas
+Brazil/West
+America/Aruba
+America/North_Dakota/Center
+America/Cayman
+Asia/Ulaanbaatar
+Asia/Baghdad
+Europe/San_Marino
+America/Indiana/Tell_City
+America/Tijuana
+Pacific/Saipan
+SystemV/YST9
+Africa/Douala
+America/Chihuahua
+America/Ojinaga
+Asia/Hovd
+America/Anchorage
+Chile/EasterIsland
+America/Halifax
+Antarctica/Rothera
+America/Indiana/Indianapolis
+US/Mountain
+Asia/Damascus
+America/Argentina/San_Luis
+America/Santiago
+Asia/Baku
+America/Argentina/Ushuaia
+Atlantic/Reykjavik
+Africa/Brazzaville
+Africa/Porto-Novo
+America/La_Paz
+Antarctica/DumontDUrville
+Asia/Taipei
+Antarctica/South_Pole
+Asia/Manila
+Asia/Bangkok
+Africa/Dar_es_Salaam
+Poland
+Atlantic/Madeira
+Antarctica/Palmer
+America/Thunder_Bay
+Africa/Addis_Ababa
+Asia/Yangon
+Europe/Uzhgorod
+Brazil/DeNoronha
+Asia/Ashkhabad
+Etc/Zulu
+America/Indiana/Marengo
+America/Creston
+America/Punta_Arenas
+America/Mexico_City
+Antarctica/Vostok
+Asia/Jerusalem
+Europe/Andorra
+US/Samoa
+PRC
+Asia/Vientiane
+Pacific/Kiritimati
+America/Matamoros
+America/Blanc-Sablon
+Asia/Riyadh
+Iceland
+Pacific/Pohnpei
+Asia/Ujung_Pandang
+Atlantic/South_Georgia
+Europe/Lisbon
+Asia/Harbin
+Europe/Oslo
+Asia/Novokuznetsk
+CST6CDT
+Atlantic/Canary
+America/Knox_IN
+Asia/Kuwait
+SystemV/HST10
+Pacific/Efate
+Africa/Lome
+America/Bogota
+America/Menominee
+America/Adak
+Pacific/Norfolk
+Europe/Kirov
+America/Resolute
+Pacific/Kanton
+Pacific/Tarawa
+Africa/Kampala
+Asia/Krasnoyarsk
+Greenwich
+SystemV/EST5
+America/Edmonton
+Europe/Podgorica
+Australia/South
+Canada/Central
+Africa/Bujumbura
+America/Santo_Domingo
+US/Eastern
+Europe/Minsk
+Pacific/Auckland
+Africa/Casablanca
+America/Glace_Bay
+Canada/Eastern
+Asia/Qatar
+Europe/Kiev
+Singapore
+Asia/Magadan
+SystemV/PST8
+America/Port-au-Prince
+Europe/Belfast
+America/St_Barthelemy
+Asia/Ashgabat
+Africa/Luanda
+America/Nipigon
+Atlantic/Jan_Mayen
+Brazil/Acre
+Asia/Muscat
+Asia/Bahrain
+Europe/Vilnius
+America/Fortaleza
+Etc/GMT0
+US/East-Indiana
+America/Hermosillo
+America/Cancun
+Africa/Maseru
+Pacific/Kosrae
+Africa/Kinshasa
+Asia/Kathmandu
+Asia/Seoul
+Australia/Sydney
+America/Lima
+Australia/LHI
+America/St_Lucia
+Europe/Madrid
+America/Bahia_Banderas
+America/Montserrat
+Asia/Brunei
+America/Santa_Isabel
+Canada/Mountain
+America/Cambridge_Bay
+Asia/Colombo
+Australia/West
+Indian/Antananarivo
+Australia/Brisbane
+Indian/Mayotte
+US/Indiana-Starke
+Asia/Urumqi
+US/Aleutian
+Europe/Volgograd
+America/Lower_Princes
+America/Vancouver
+Africa/Blantyre
+America/Rio_Branco
+America/Danmarkshavn
+America/Detroit
+America/Thule
+Africa/Lusaka
+Asia/Hong_Kong
+Iran
+America/Argentina/La_Rioja
+Africa/Dakar
+SystemV/CST6CDT
+America/Tortola
+America/Porto_Velho
+Asia/Sakhalin
+Etc/GMT+10
+America/Scoresbysund
+Asia/Kamchatka
+Asia/Thimbu
+Africa/Harare
+Etc/GMT+12
+Etc/GMT+11
+Navajo
+America/Nome
+Europe/Tallinn
+Turkey
+Africa/Khartoum
+Africa/Johannesburg
+Africa/Bangui
+Europe/Belgrade
+Jamaica
+Africa/Bissau
+Asia/Tehran
+WET
+Europe/Astrakhan
+Africa/Juba
+America/Campo_Grande
+America/Belem
+Etc/Greenwich
+Asia/Saigon
+America/Ensenada
+Pacific/Midway
+America/Jujuy
+Africa/Timbuktu
+America/Bahia
+America/Goose_Bay
+America/Virgin
+America/Pangnirtung
+Asia/Katmandu
+America/Phoenix
+Africa/Niamey
+America/Whitehorse
+Pacific/Noumea
+Asia/Tbilisi
+Europe/Kyiv
+America/Montreal
+Asia/Makassar
+America/Argentina/San_Juan
+Hongkong
+UCT
+Asia/Nicosia
+America/Indiana/Winamac
+SystemV/MST7MDT
+America/Argentina/ComodRivadavia
+America/Boa_Vista
+America/Grenada
+Asia/Atyrau
+Australia/Darwin
+Asia/Khandyga
+Asia/Kuala_Lumpur
+Asia/Famagusta
+Asia/Thimphu
+Asia/Rangoon
+Europe/Bratislava
+Asia/Calcutta
+America/Argentina/Tucuman
+Asia/Kabul
+Indian/Cocos
+Japan
+Pacific/Tongatapu
+America/New_York
+Etc/GMT-12
+Etc/GMT-11
+America/Nuuk
+Etc/GMT-10
+SystemV/YST9YDT
+Europe/Ulyanovsk
+Etc/GMT-14
+Etc/GMT-13
+W-SU
+America/Merida
+EET
+America/Rosario
+Canada/Saskatchewan
+America/St_Kitts
+Arctic/Longyearbyen
+America/Fort_Nelson
+America/Caracas
+America/Guadeloupe
+Asia/Hebron
+Indian/Kerguelen
+SystemV/PST8PDT
+Africa/Monrovia
+Asia/Ust-Nera
+Egypt
+Asia/Srednekolymsk
+America/North_Dakota/New_Salem
+Asia/Anadyr
+Australia/Melbourne
+Asia/Irkutsk
+America/Shiprock
+America/Winnipeg
+Europe/Vatican
+Asia/Amman
+Etc/UTC
+SystemV/AST4ADT
+Asia/Tokyo
+America/Toronto
+Asia/Singapore
+Australia/Lindeman
+America/Los_Angeles
+SystemV/EST5EDT
+Pacific/Majuro
+America/Argentina/Buenos_Aires
+Europe/Nicosia
+Pacific/Guadalcanal
+Europe/Athens
+US/Pacific
+Europe/Monaco
+
+
+Enter the time zone you want to get the current time for:
+Asia/Kolkata
+The date and time is: 24 Aug 2025 07:32:49 AM IST
+
+Press 1 for adding to or deleting from the current date/time,
+Press 2 for changing the timezone,
+Any other key to exit
+
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ mkdir my_datediff_proj
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ mkdir -p my_datediff_proj/src
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ mkdir -p my_datediff_proj/classes
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ mkdir -p my_datediff_proj/test
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ cd my_datediff_proj
+theia@theia-aparnamogili:/home/project/my_datetime_p
+f_proj/src/DateDiffCalculator.javaproject/my_datediff
+touch: cannot touch '/home/project/my_datediff_proj/src/DateDiffCalculator.java': No such file or directory
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj/my_datediff_proj$ javac -d classes src/DateDiffCalculator.java
+error: file not found: src/DateDiffCalculator.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+theia@theia-aparnamogili:/home/project/my_datetime_proj/my_datediff_
+sses$ export CLASSPATH=$CLASSPATH:/home/project/my_datediff_proj/clas
+theia@theia-aparnamogili:/home/project/my_datetime_proj/my_datediff_
+proj$ java DateDiffCalculator
+Error: Could not find or load main class DateDiffCalculator
+Caused by: java.lang.ClassNotFoundException: DateDiffCalculator
+theia@theia-aparnamogili:/home/project/my_datetime_proj/my_datediff_
+proj$ javac -d classes src/DateDiffCalculator.java
+error: file not found: src/DateDiffCalculator.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+theia@theia-aparnamogili:/home/project/my_datetime_proj/my_datediff_
+proj$ cd ../
+theia@theia-aparnamogili:/home/project/my_datetime_p
+roj$ cd ../
+theia@theia-aparnamogili:/home/project$ ls -la
+total 24
+drwxrwsrwx 5 root  users 4096 Aug 23 22:12 .
+drwxrwxr-x 1 root  root  4096 Mar 27 17:38 ..
+drwxr-sr-x 2 theia users 4096 Aug 23 21:51 .theia
+drwxr-sr-x 3 theia users 4096 Aug 23 22:12 my_datediff_proj
+drwxr-sr-x 6 theia users 4096 Aug 23 22:12 my_datetime_proj
+ff_proj/eia-aparnamogili:/home/project$ cd my_datedif
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ javac -d classes src/DateDiffCalculator.java
+theia@theia-aparnamogili:/home/project/my_datediff_p
+tediff_proj/classesTH=$CLASSPATH:/home/project/my_dat
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+
+The date is 23/08/2025
+Input the date in dd/MM/yyyy format
+25/10/2025
+
+The given date is 25/10/2025
+The difference is 2 months, 2 day(s)
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ javac -d classes src/DateDiffCalculator.java
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MM yy
+Input the date in dd MM yy format:
+02 Feb 25
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yy
+Input the date in dd MMM yy format:
+02 Feb 25
+Input another date in dd MMM yy format:
+25 Dec 25
+
+The given date is 02 Feb 25
+
+The other given date is 25 Dec 25
+The difference is 10 months, 23 day(s)
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ javac -d classes src/DateDiffCalculator.java
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yy HH:mm:ss Z
+Input the date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0930
+Input another date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 12:30:00 -1730
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yy HH:mm:ss Z
+Input the date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0930
+Input another date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 -1730
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yy HH:mm:ss Z
+Input the date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0930
+Input another date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 -1730
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yy HH:mm:ss Z
+Input the date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0930
+Input another date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0530
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yy HH:mm:ss Z
+Input the date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0930
+Input another date in dd MMM yy HH:mm:ss Z format:
+15 Feb 22 14:30:00 +0930
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd mm yyy
+Input the date in dd mm yyy format:
+23 07 25
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd mm yyyy
+Input the date in dd mm yyyy format:
+23 07 2025
+Invalid input. Please try again!
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ javac -d classes src/DateDiffCalculator.java
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yyyy
+Input the date in dd MMM yyyy format:
+23 Feb 2025
+Input another date in dd MMM yyyy format:
+24 Dec 2025
+
+The given date is 23 Feb 2025
+
+The other given date is 24 Dec 2025
+The difference is 10 months, 1 day(s)
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ java DateDiffCalculator
+Enter the format in which you want to feed the dates in:
+dd MMM yyyy
+Input the date in dd MMM yyyy format:
+14 Aug 2025
+Input another date in dd MMM yyyy format:
+23 Sep 2025
+
+The given date is 14 Aug 2025
+
+The other given date is 23 Sep 2025
+The difference is 1 months, 9 day(s)
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ git clone https://github.com/ibm-developer-skills-network/flgsb-oop-additional-practice.git
+Cloning into 'flgsb-oop-additional-practice'...
+remote: Enumerating objects: 251, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 251 (delta 7), reused 5 (delta 5), pack-reused 229 (from 1)
+Receiving objects: 100% (251/251), 82.20 KiB | 13.70 MiB/s, done.
+Resolving deltas: 100% (61/61), done.
+theia@theia-aparnamogili:/home/project/my_datediff_p
+roj$ cd ../
+theia@theia-aparnamogili:/home/project$ git clone https://github.com/ibm-developer-skills-network/flgsb-oop-additional-practice.git
+Cloning into 'flgsb-oop-additional-practice'...
+remote: Enumerating objects: 251, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 251 (delta 7), reused 5 (delta 5), pack-reused 229 (from 1)
+Receiving objects: 100% (251/251), 82.20 KiB | 16.44 MiB/s, done.
+Resolving deltas: 100% (61/61), done.
+theia@theia-aparnamogili:/home/project$ cd flgsb-oop-additional-practice/OOPs/Module\ 5
+theia@theia-aparnamogili:/home/project/flgsb-oop-add
+itional-practice/OOPs/Module 5$ ls
+'Calculate the difference between two dates'
+'Format a given Date and Time'
+theia@theia-aparnamogili:/home/project/flgsb-oop-add
+itional-practice/OOPs/Module 5$ cd Calculate\ the\ difference\ between\ two\ dates
+theia@theia-aparnamogili:/home/project/flgsb-oop-add
+itional-practice/OOPs/Module 5/Calculate the differe
+nce between two dates$ mkdir classes
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Calculate the diff
+erence between two dates$ javac -d classes/ TravelPlanner.java 
+TravelPlanner.java:91: error: cannot find symbol
+        && depadepartureDate.isBefore(holidayDate) 
+           ^
+  symbol:   variable depadepartureDate
+  location: class TravelPlanner
+TravelPlanner.java:101: error: cannot find symbol
+        return LocalDate.parse(dateStr, DATE_FORMATTER);
+                                        ^
+  symbol:   variable DATE_FORMATTER
+  location: class TravelPlanner
+2 errors
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Calculate the diff
+erence between two dates$ javac -d classes/ TravelPlanner.java 
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Calculate the diff
+erence between two dates$ java TravelPlanner.java 
+=== Travel Planner Application ===
+All dates should be entered in format dd/MM/yyyy
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 1
+Enter departure date (dd/MM/yyyy): 23/08/2025
+Enter return date (dd/MM/yyyy): 30/08/2025
+Trip duration: 7 days
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 2
+Enter departure date (dd/MM/yyyy): 23/08/2025
+Enter return date (dd/MM/yyyy): 30/08/2025
+Departure date should not be in the past
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 2
+Enter departure date (dd/MM/yyyy): 30/08/2025
+Enter return date (dd/MM/yyyy): 24/08/2025
+Return date should be after departure date
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 2
+Enter departure date (dd/MM/yyyy): 24/08/2025
+Enter return date (dd/MM/yyyy): 24/12/2025
+Trip should not be longer than 90 days
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 2
+Enter departure date (dd/MM/yyyy): 24/08/2025
+Enter return date (dd/MM/yyyy): 30/08/2025
+Travel dates are valid!
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 3
+Enter departure date (dd/MM/yyyy): 24/08/2025
+Enter return date (dd/MM/yyyy): 30/08/2025
+check-in : 24/08/2025 & Check-out : 30/08/2025
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 4
+Enter departure date (dd/MM/yyyy): 24/08/2025
+Enter return date (dd/MM/yyyy): 30/08/2025
+Enter holiday date (dd/MM/yyyy): 27/08/2025
+Your trip overlaps with the holiday!
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 4   
+Enter departure date (dd/MM/yyyy): 24/08/2025
+Enter return date (dd/MM/yyyy): 30/08/2025
+Enter holiday date (dd/MM/yyyy): 31/09/2025
+Your trip does not overlap with the holiday.
+
+Choose an option:
+1. Calculate trip duration
+2. Validate travel dates
+3. Calculate hotel check-in and check-out
+4. Check if trip overlaps with a holiday
+5. Exit
+Enter your choice (1-5): 5
+Thank you for using Travel Planner!
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Catheia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Calculate the diff
+erence between two dates$ cd ../
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5$ ls 
+'Calculate the difference between two dates'   console.log
+'Format a given Date and Time'
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5$ cd Format\ a\ given\ Date\ and\ Time
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Fo
+rmat a given Date and Time$ classes
+bash: classes: command not found
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Format a given Dat
+e and Time$ mkdir classes
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Format a given Dat
+e and Time$ javac -d classes/ Event.java 
+Event.java:35: error: cannot find symbol
+    public string formatDateTime(String pattern){
+           ^
+  symbol:   class string
+  location: class Event
+Event.java:51: error: cannot find symbol
+        return dateTime.withZoneSameInstant(ZoneId.of(timezoneId));
+                                            ^
+  symbol:   variable ZoneId
+  location: class Event
+2 errors
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Format a given Dat
+e and Time$ javac -d classes/ Event.java 
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Format a given Dat
+e and Time$ javac -d classes/ EventScheduler.java 
+EventScheduler.java:84: error: cannot find symbol
+            LocalDate date = LocalDate.parse(dateStr);
+            ^
+  symbol:   class LocalDate
+  location: class EventScheduler
+EventScheduler.java:84: error: cannot find symbol
+            LocalDate date = LocalDate.parse(dateStr);
+                             ^
+  symbol:   variable LocalDate
+  location: class EventScheduler
+EventScheduler.java:88: error: cannot find symbol
+            LocalTime time = LocalTime.parse(timeStr);
+            ^
+  symbol:   class LocalTime
+  location: class EventScheduler
+EventScheduler.java:88: error: cannot find symbol
+            LocalTime time = LocalTime.parse(timeStr);
+                             ^
+  symbol:   variable LocalTime
+  location: class EventScheduler
+4 errors
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Format a given Dat
+e and Time$ javac -d classes/ EventScheduler.java 
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Format a given Dat
+e and Time$ cd classes/
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Format a given Dat
+e and Time/classes$ java EventScheduler.class 
+Error: Could not find or load main class EventScheduler.class
+Caused by: java.lang.ClassNotFoundException: EventScheduler.class
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Format a given Dat
+e and Time/classes$ java EventScheduler       
+
+=== Event Scheduler ===
+1. Add Event
+2. Display All Events
+3. Show Time Until Event
+4. Convert Event Time to Different Timezone
+5. Find Upcoming Events
+6. Exit
+Enter your choice: 1
+Enter event name: birthday
+Enter date (yyyy-MM-dd): 2025-04-02
+Enter time (HH:mm): 19:30        
+Enter timezone (e.g., America/New_York, Europe/London): Asia/Kolkata
+Enter duration in hours: 24
+Enter additional minutes: 0
+Event added successfully!
+
+=== Event Scheduler ===
+1. Add Event
+2. Display All Events
+3. Show Time Until Event
+4. Convert Event Time to Different Timezone
+5. Find Upcoming Events
+6. Exit
+Enter your choice: 1
+Enter event name: Agentic AI
+Enter date (yyyy-MM-dd): 2025-08-25
+Enter time (HH:mm): 11:00
+Enter timezone (e.g., America/New_York, Europe/London): Asia/Kolkata 
+Enter duration in hours: 01:30
+Error: For input string: "01:30"
+
+=== Event Scheduler ===
+1. Add Event
+2. Display All Events
+3. Show Time Until Event
+4. Convert Event Time to Different Timezone
+5. Find Upcoming Events
+6. Exit
+Enter your choice: 1   
+Enter event name: Agentic AI
+Enter date (yyyy-MM-dd): 2025-08-25
+Enter time (HH:mm): 11:30
+Enter timezone (e.g., America/New_York, Europe/London): Asia/kolkata
+Error: Unknown time-zone ID: Asia/kolkata
+
+=== Event Scheduler ===
+1. Add Event
+2. Display All Events
+3. Show Time Until Event
+4. Convert Event Time to Different Timezone
+5. Find Upcoming Events
+6. Exit
+Enter your choice: 1   
+Enter event name: Agentic AI
+Enter date (yyyy-MM-dd): 2025-08-25
+Enter time (HH:mm): 11:30
+Enter timezone (e.g., America/New_York, Europe/London): Asia/Kolkata
+Enter duration in hours: 1
+Enter additional minutes: 30
+Event added successfully!
+
+=== Event Scheduler ===
+1. Add Event
+2. Display All Events
+3. Show Time Until Event
+4. Convert Event Time to Different Timezone
+5. Find Upcoming Events
+6. Exit
+Enter your choice: 2
+Enter date format pattern (e.g., yyyy-MM-dd HH:mm z, dd-MMM-yyyy hh:mm a): dd/mm/yyyy HH:mm:sss Z
+
+All Events:
+Exception in thread "main" java.lang.IllegalArgumentException: Too many pattern letters: s
+        at java.base/java.time.format.DateTimeFormatterBuilder.parseField(DateTimeFormatterBuilder.java:2147)
+        at java.base/java.time.format.DateTimeFormatterBuilder.parsePattern(DateTimeFormatterBuilder.java:1931)
+        at java.base/java.time.format.DateTimeFormatterBuilder.appendPattern(DateTimeFormatterBuilder.java:1899)
+        at java.base/java.time.format.DateTimeFormatter.ofPattern(DateTimeFormatter.java:569)
+        at Event.formatDateTime(Event.java:37)
+        at EventScheduler.displayAllEvents(EventScheduler.java:139)
+        at EventScheduler.run(EventScheduler.java:47)
+        at EventScheduler.main(EventScheduler.java:270)
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Format a given Dat
+e and Time/classes$ java EventScheduler
+
+=== Event Scheduler ===
+1. Add Event
+2. Display All Events
+3. Show Time Until Event
+4. Convert Event Time to Different Timezone
+5. Find Upcoming Events
+6. Exit
+Enter your choice: 1
+Enter event name: birthday
+Enter date (yyyy-MM-dd): 2025-04-02
+Enter time (HH:mm): 19:30
+Enter timezone (e.g., America/New_York, Europe/London): Asia/Kolkata
+Enter duration in hours: 24
+Enter additional minutes: 0
+Event added successfully!
+
+=== Event Scheduler ===
+1. Add Event
+2. Display All Events
+3. Show Time Until Event
+4. Convert Event Time to Different Timezone
+5. Find Upcoming Events
+6. Exit
+Enter your choice: 1
+Enter event name: Agentic AI
+Enter date (yyyy-MM-dd): 2025-08-24
+Enter time (HH:mm): 11:30
+Enter timezone (e.g., America/New_York, Europe/London): Asia/Kolkata
+Enter duration in hours: 1
+Enter additional minutes: 20
+Event added successfully!
+
+=== Event Scheduler ===
+1. Add Event
+2. Display All Events
+3. Show Time Until Event
+4. Convert Event Time to Different Timezone
+5. Find Upcoming Events
+6. Exit
+Enter your choice: 2
+Enter date format pattern (e.g., yyyy-MM-dd HH:mm z, dd-MMM-yyyy hh:mm a): yyyy-MM-dd HH:mm z
+
+All Events:
+1. birthday - 2025-04-02 19:30 IST (Duration: 24h 0m)
+2. Agentic AI - 2025-08-24 11:30 IST (Duration: 1h 20m)
+
+=== Event Scheduler ===
+1. Add Event
+2. Display All Events
+3. Show Time Until Event
+4. Convert Event Time to Different Timezone
+5. Find Upcoming Events
+6. Exit
+Enter your choice: 3
+
+Select an event:
+1. birthday
+2. Agentic AI
+Enter event number: 1
+This event has already occurred.
+
+=== Event Scheduler ===
+1. Add Event
+2. Display All Events
+3. Show Time Until Event
+4. Convert Event Time to Different Timezone
+5. Find Upcoming Events
+6. Exit
+Enter your choice: 3
+
+Select an event:
+1. birthday
+2. Agentic AI
+Enter event number: 2
+Time until Agentic AI: 0 days, 2 hours, 27 minutes, 32 seconds
+
+=== Event Scheduler ===
+1. Add Event
+2. Display All Events
+3. Show Time Until Event
+4. Convert Event Time to Different Timezone
+5. Find Upcoming Events
+6. Exit
+Enter your choice: 4
+
+Select an event:
+1. birthday
+2. Agentic AI
+Enter event number: 2
+Enter target timezone (e.g., America/New_York, Europe/London): America/New_York
+Event in America/New_York: 2025-08-24 02:00 EDT
+
+=== Event Scheduler ===
+1. Add Event
+2. Display All Events
+3. Show Time Until Event
+4. Convert Event Time to Different Timezone
+5. Find Upcoming Events
+6. Exit
+Enter your choice: 5
+Enter number of days to look ahead: 1
+
+Events in the next 1 days:
+- Agentic AI - 2025-08-24 11:30 IST
+
+=== Event Scheduler ===
+1. Add Event
+2. Display All Events
+3. Show Time Until Event
+4. Convert Event Time to Different Timezone
+5. Find Upcoming Events
+6. Exit
+Enter your choice: 6
+Exiting the Event Scheduler. Goodbye!
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 5/Fo
+rmat a given Date and Time/classes$ 

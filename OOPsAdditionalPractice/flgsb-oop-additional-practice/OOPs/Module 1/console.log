@@ -1,0 +1,346 @@
+theia@theia-aparnamogili:/home/project$ git clone https://github.com/ibm-developer-skills-network/flgsb-oop-additional-practice.git
+Cloning into 'flgsb-oop-additional-practice'...
+remote: Enumerating objects: 251, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 251 (delta 7), reused 5 (delta 5), pack-reused 229 (from 1)
+Receiving objects: 100% (251/251), 82.20 KiB | 16.44 MiB/s, done.
+Resolving deltas: 100% (61/61), done.
+theia@theia-aparnamogili:/home/project$ cd flgsb-oop-additional-practice/OOPs/Module\ 1
+theia@theia-aparnamogili:/home/project/flgsb-oop-ad
+ditional-practice/OOPs/Module 1$ ls
+'Build your own constructor'
+'Create your own class'
+theia@theia-aparnamogili:/home/project/fltheia@theia-aparnamogili:/home/project/flgstheia@theia-aparnamogili:/home/project/flgsb-theia@theia-aparnamogili:/home/project/flgsb-oop-ad
+ditional-practice/OOPs/Module 1$ cd
+ Build\ your\ own\ constructor/
+theia@theia-aparnamogili:/home/project/flgs
+b-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ java -d classes Employee.java 
+classes not found
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-ptheia@theia-aparnamogili:theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ mkdir classes
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ java -d classes Employee.java 
+classes not found
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ ls -la
+total 28
+drwxr-sr-x 4 theia users 4096 Aug 19 08:38 .
+drwxr-sr-x 4 theia users 4096 Aug 19 08:17 ..
+-rw-r--r-- 1 theia users 3525 Aug 19 08:36 Employee.java
+-rw-r--r-- 1 theia users 1291 Aug 19 08:17 Readme.md
+-rw-r--r-- 1 theia users 1219 Aug 19 08:17 TestEncapsulation.java
+drwxr-sr-x 2 theia users 4096 Aug 19 08:38 classes
+drwxr-sr-x 2 theia users 4096 Aug 19 08:17 solution
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ java -d classes Employee.java 
+classes not found
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ javac -d classes Employee.java 
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ CLASSPATH = $CLASSPATH:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor/classes
+bash: CLASSPATH: command not found
+ld: cannot find your: No such file or directory
+ld: cannot find own: No such file or directory
+ld: cannot find constructor/classes: No such file or directory
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ CLASSPATH = $CLASSPATH:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Build\ your\ own\ constructor/classes
+bash: CLASSPATH: command not found
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ export CLASSPATH = $CLASSPATH:/home/project/flgsb-oop-additio
+nal-practice/OOPs/Module 1/Build\ your\ own\ constructor/classes
+bash: export: `=': not a valid identifier
+bash: export: `/home/theia/dsdriver/tools/clpplus.jar:/home/theia/dsdriver/tools/jline-0.9.93.jar:/home/theia/dsdriver/tools/antlr-3.3-java.jar:/home/theia/dsdriver/java/db2jcc4.jar:/home/theia/dsdriver/java/sqlj4.zip::/home/project/flgsb-oop-additional-practice/OOPs/Module': not a valid identifier
+bash: export: `1/Build your own constructor/classes': not a valid identifier
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ CLASSPATH=$CLASSPATH:/home/project/flgsb-oop-additional-pract
+ice/OOPs/Module 1/Build\ your\ own\ constructor/classes
+bash: 1/Build your own constructor/classes: No such file or directory
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ pwd
+/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Build your own constructor
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ ls -la
+total 28
+drwxr-sr-x 4 theia users 4096 Aug 19 08:40 .
+drwxr-sr-x 4 theia users 4096 Aug 19 08:17 ..
+-rw-r--r-- 1 theia users 3525 Aug 19 08:36 Employee.java
+-rw-r--r-- 1 theia users 1291 Aug 19 08:17 Readme.md
+-rw-r--r-- 1 theia users 1219 Aug 19 08:17 TestEncapsulation.java
+drwxr-sr-x 2 theia users 4096 Aug 19 08:39 classes
+drwxr-sr-x 2 theia users 4096 Aug 19 08:17 solution
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ echo $CLASSPATH
+/home/theia/dsdriver/tools/clpplus.jar:/home/theia/dsdriver/tools/jline-0.9.93.jar:/home/theia/dsdriver/tools/antlr-3.3-java.jar:/home/theia/dsdriver/java/db2jcc4.jar:/home/theia/dsdriver/java/sqlj4.zip:
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ CLASSPATH=$CLASSPATH:/home/project/flgsb-oop-additional-practice/OOPs/Module\ 1/Build\ your\ own\ constructor/classes/
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ javac -d classes TestEncapsulation.java 
+TestEncapsulation.java:24: error: cannot find symbol
+            yogeshwar.setName(name);
+                              ^
+  symbol:   variable name
+  location: class TestEncapsulation
+TestEncapsulation.java:53: error: cannot find symbol
+        yogiClone.getEmpDetails();
+        ^
+  symbol:   variable yogiClone
+  location: class TestEncapsulation
+TestEncapsulation.java:54: error: cannot find symbol
+        if(yogeshwar.getSalary()!=yogiClone.getSalary() && yogeshwar.getAge()!=yogiClone.getAge()){
+                                  ^
+  symbol:   variable yogiClone
+  location: class TestEncapsulation
+TestEncapsulation.java:54: error: cannot find symbol
+        if(yogeshwar.getSalary()!=yogiClone.getSalary() && yogeshwar.getAge()!=yogiClone.getAge()){
+                                                                               ^
+  symbol:   variable yogiClone
+  location: class TestEncapsulation
+TestEncapsulation.java:62: error: cannot find symbol
+        System.out.println("Employee with highest salary among yogeshwar and yogi clone :"+getEmpWithHighestSalary(yogeshwar,yogiClone));
+                                                                                                                             ^
+  symbol:   variable yogiClone
+  location: class TestEncapsulation
+TestEncapsulation.java:64: error: cannot find symbol
+        System.out.println("Employee with highest salary among yogi clone and yogi clone2 :"+getEmpWithHighestSalary(yogiClone,(EMployee)yogiClone.clone()));
+                                                                                                                     ^
+  symbol:   variable yogiClone
+  location: class TestEncapsulation
+TestEncapsulation.java:64: error: cannot find symbol
+        System.out.println("Employee with highest salary among yogi clone and yogi clone2 :"+getEmpWithHighestSalary(yogiClone,(EMployee)yogiClone.clone()));
+                                                                                                                                ^
+  symbol:   class EMployee
+  location: class TestEncapsulation
+TestEncapsulation.java:64: error: cannot find symbol
+        System.out.println("Employee with highest salary among yogi clone and yogi clone2 :"+getEmpWithHighestSalary(yogiClone,(EMployee)yogiClone.clone()));
+                                                                                                                                         ^
+  symbol:   variable yogiClone
+  location: class TestEncapsulation
+8 errors
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ javac -d classes TestEncapsulation.java 
+TestEncapsulation.java:24: error: cannot find symbol
+            yogeshwar.setName(name);
+                              ^
+  symbol:   variable name
+  location: class TestEncapsulation
+1 error
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ javac -d classes TestEncapsulation.java 
+TestEncapsulation.java:71: error: unreported exception CloneNotSupportedException; must be caught or declared to be thrown
+        System.out.println("Employee with highest salary among yogi clone and yogi clone2 :"+getEmpWithHighestSalary(yogiClone,(Employee)yogiClone.clone()));
+                                                                                                                                                        ^
+1 error
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ javac -d classes TestEncapsulation.java 
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ java TestEncapsulation      
+Name : Jaya Yogeshwar Reddy
+Age : 20
+Monthly Salary : 400000.0
+Annual Salary : 4800000.0
+Name : K Archana
+Age : 18
+Monthly Salary : 200000.0
+Annual Salary : 2400000.0
+Employee age should be between 18 and 65 (inclusive)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.isEmpty()" because "<parameter1>" is null
+        at Employee.setName(Employee.java:45)
+        at TestEncapsulation.main(TestEncapsulation.java:24)
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ javac -d classes TestEncapsulation.java 
+TestEncapsulation.java:25: error: method setName in class Employee cannot be applied to given types;
+            yogeshwar.setName();
+                     ^
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+1 error
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ javac -d classes TestEncapsulation.java 
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ java TestEncapsulation
+Name : Jaya Yogeshwar Reddy
+Age : 20
+Monthly Salary : 400000.0
+Annual Salary : 4800000.0
+Name : K Archana
+Age : 18
+Monthly Salary : 200000.0
+Annual Salary : 2400000.0
+Employee age should be between 18 and 65 (inclusive)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.isEmpty()" because "<parameter1>" is null
+        at Employee.setName(Employee.java:45)
+        at TestEncapsulation.main(TestEncapsulation.java:25)
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPtheia@theia-aptheia@theia-aparnamogili:/home/project/flgsb-oop-additionatheia@theia-aparnamogili:/hotheia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ java -d classes Employee.java 
+classes not found
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ javac -d classes Employee.java 
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ javac -d classes TestEncapsulation.java 
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ java TestEncapsulation
+Name : Jaya Yogeshwar Reddy
+Age : 20
+Monthly Salary : 400000.0
+Annual Salary : 4800000.0
+Name : K Archana
+Age : 18
+Monthly Salary : 200000.0
+Annual Salary : 2400000.0
+Employee age should be between 18 and 65 (inclusive)
+name cannot be null or empty
+name cannot be null or empty
+salary should always be greater than or equal to 0
+Name : Jaya Yogeshwar Reddy
+Age : 20
+Monthly Salary : 40000.0
+Annual Salary : 480000.0
+Name : K Archana
+Age : 18
+Monthly Salary : 20000.0
+Annual Salary : 240000.0
+Name : Jaya Yogeshwar Reddy
+Age : 21
+Monthly Salary : 600000.0
+Annual Salary : 7200000.0
+Name : Jaya Yogeshwar Reddy
+Age : 20
+Monthly Salary : 40000.0
+Annual Salary : 480000.0
+clone remained unchanged
+Employee with highest salary among yogeshwar and yogi clone :Jaya Yogeshwar Reddy
+Employee with highest salary among yogeshwar and archana :Jaya Yogeshwar Reddy
+Employee with highest salary among yogi clone and yogi clone2 :Equal salaries
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ javac -d classes TestEncapsulation.java 
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ java TestEncapsulation
+Name : Jaya Yogeshwar Reddy
+Age : 20
+Monthly Salary : 400000.0
+Annual Salary : 4800000.0
+Name : K Archana
+Age : 18
+Monthly Salary : 200000.0
+Annual Salary : 2400000.0
+Employee age should be between 18 and 65 (inclusive)
+name cannot be null or empty
+name cannot be null or empty
+salary should always be greater than or equal to 0
+Name : Jaya Yogeshwar Reddy
+Age : 20
+Monthly Salary : 40000.0
+Annual Salary : 480000.0
+Name : K Archana
+Age : 18
+Monthly Salary : 20000.0
+Annual Salary : 240000.0
+Name : Jaya Yogeshwar Reddy
+Age : 21
+Monthly Salary : 600000.0
+Annual Salary : 7200000.0
+Name : Jaya Yogeshwar Reddy
+Age : 20
+Monthly Salary : 40000.0
+Annual Salary : 480000.0
+clone remained unchanged
+Employee with highest salary among yogeshwar and yogi clone :Jaya Yogeshwar Reddy
+Employee with highest salary among archana and yogeshwar :Jaya Yogeshwar Reddy
+Employee with highest salary among yogi clone and yogi clone2 :Equal salaries
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Bui
+ld your own constructor$ cd ../Create\ your\ own\ class/
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Cre
+ate your own class$ mkdir classes
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Cre
+ate your own class$ CLASSPATH=$CLASSPATH:/home/project/flgsb-oop-additional-practice/OOPs/Module\ 1/Create\ your\ own\ class/classes/
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Cre
+ate your own class$ javac -d classes/ Student.java 
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Cre
+ate your own class$ javac -d classes/ StudentRegistry.java 
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Cre
+ate your own class$ java StudentRegistry      
+Student Info : 
+Student Id : YOGI0803
+Name : Yogeshwar
+Grade : 79.0
+status : true
+Student Info : 
+Student Id : ARU2510
+Name : Archana
+Grade : 92.0
+status : true
+Student Info : 
+Student Id : ARU2510
+Name : Archana
+Grade : 92.0
+status : true
+Yogeshwar is awarded grade of C based on his performance this academic year
+Archana is awarded grade of A based on her performance this academic year
+Yogeshwar has  passed  his examinations.
+Archana has  passed  his examinations.
+Student Info : 
+Student Id : ARU2510
+Name : Archana
+Grade : 92.0
+status : false
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Cre
+ate your own class$ java StudentRegistry
+Student Info : 
+Student Id : YOGI0803
+Name : Yogeshwar
+Grade : 79.0
+status : true
+Student Info : 
+Student Id : ARU2510
+Name : Archana
+Grade : 92.0
+status : true
+Student Info : 
+Student Id : ARU2510
+Name : Archana
+Grade : 92.0
+status : true
+Yogeshwar is awarded grade of C based on his performance this academic year
+Archana is awarded grade of A based on her performance this academic year
+Yogeshwar has  passed  his examinations.
+Archana has  passed  his examinations.
+Student Info : 
+Student Id : ARU2510
+Name : Archana
+Grade : 92.0
+status : false
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Cre
+ate your own class$ javac -d classes/ StudentRegistry.java 
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Cre
+ate your own class$ java StudentRegistry
+Student Info : 
+Student Id : YOGI0803
+Name : Yogeshwar
+Grade : 79.0
+status : true
+Student Info : 
+Student Id : ARU2510
+Name : Archana
+Grade : 92.0
+status : true
+Student with Highest Marks this year : 
+Student Info : 
+Student Id : ARU2510
+Name : Archana
+Grade : 92.0
+status : true
+Yogeshwar is awarded grade of C based on his performance this academic year
+Archana is awarded grade of A based on her performance this academic year
+Yogeshwar has  passed  his examinations.
+Archana has  passed  her examinations.
+Student Info : 
+Student Id : ARU2510
+Name : Archana
+Grade : 92.0
+status : false
+theia@theia-aparnamogili:/home/project/flgsb-oop-additional-practice/OOPs/Module 1/Cre
+ate your own class$ 
